@@ -50,6 +50,13 @@ bio_twitter = "deleeuw_jan"
   site = "Twitter"
 
 [[params.social]]
+  icon = "facebook"
+  icon_pack = "fa"
+  link = "https://www.facebook.com/jan.deleeuw1"
+  text = "jan.deleeuw1"
+  site = "Facebook"
+
+[[params.social]]
   icon = "github"
   icon_pack = "fa"
   link = "https://github.com/deleeuw"
