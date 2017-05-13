@@ -32,21 +32,21 @@ bio_twitter = "pierrede_fermat"
 #pubs_count = 5
 
 [[params.education]]
-  course = "Bachelor in Civil Law"
-  institution = "University of Orléans"
-  year = 1626
+  course = "Ph.D. Social Sciences"
+  institution = "Leiden University"
+  year = 1973
 
 [[params.social]]
   icon = "envelope"
   icon_pack = "fa"
-  link = "mailto:fermat@example.com"
-  text = "fermat@example.com"
+  link = "mailto:deleeuw@stat.ucla.edu"
+  text = "deleeuw@stat.ucla.edu"
     
 [[params.social]]
   icon = "twitter"
   icon_pack = "fa"
-  link = "https://twitter.com/pierrede_fermat"
-  text = "@pierrede_fermat"
+  link = "https://twitter.com/deleeuw_jan"
+  text = "@deleeuw_jan"
   site = "Twitter"
 
 [[params.social]]
@@ -59,7 +59,7 @@ bio_twitter = "pierrede_fermat"
 [[params.social]]
   icon = "researchgate"
   icon_pack = "ai"
-  link = "https://www.researchgate.net/profile/Pierre_Fermat3"
+  link = "https://www.researchgate.net/profile/Jan_De_Leeuw"
   text = "ResearchGate"
 
 
