@@ -52,8 +52,8 @@ bio_twitter = "pierrede_fermat"
 [[params.social]]
   icon = "github"
   icon_pack = "fa"
-  link = "//https://gist.github.com/Ayrx/5884802"
-  text = "Fermat"
+  link = "https://github.com/deleeuw"
+  text = "deleeuw"
   site = "GitHub"
 
 [[params.social]]
