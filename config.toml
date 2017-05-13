@@ -17,13 +17,13 @@ date_format = "2006-01-02"
 # Both parameters are mapped to an icon in partials/pub-icon.html.
 
 bio_full = "Jan de Leeuw: retired but unfinished"
-bio_twitter = ""
+bio_twitter = "deleeuw_jan"
 
 # Title of posts section on main page.
 #posts_title = "Posts"
 
 # Number of posts to show on main page.
-#posts_count = 2
+#posts_count = 1
 
 # Title of publications section on main page.
 #pubs_title = "Publications"
