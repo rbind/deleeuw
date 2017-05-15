@@ -16,7 +16,7 @@ date_format = "2006-01-02"
 # Publications can have a Params.kind, such as "book".
 # Both parameters are mapped to an icon in partials/pub-icon.html.
 
-bio_full = "Jan de Leeuw: retired not finished"
+bio_full = "Jan de Leeuw: retired, not finished"
 bio_twitter = "deleeuw_jan"
 
 # Title of posts section on main page.
