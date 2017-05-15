@@ -1,12 +1,10 @@
 ---
-title: Tentative
-author: Jan de Leeuw
+title: "Tentative"
+author: "Jan de Leeuw"
 date: '2017-05-15'
 slug: tentative
-categories:
-  - R
-tags:
-  - R Markdown
+tags: R Markdown
+categories: R
 ---
 
 #Introduction
