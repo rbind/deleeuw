@@ -1,0 +1,14 @@
+---
+title: Tentative
+author: Jan de Leeuw
+date: '2017-05-15'
+slug: tentative
+categories:
+  - R
+tags:
+  - R Markdown
+---
+
+#Introduction
+
+$$\Phi(z)=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^z \exp\{-\frac12 x^2\}dx$$
