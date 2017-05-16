@@ -1,1 +1,1 @@
-This is a repo to host the source files for Jan de Leeuw's ever growing web site.
+This is a repo to host the source files for Jan de Leeuw's growing web site.
