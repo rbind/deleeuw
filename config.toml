@@ -30,7 +30,7 @@ posts_count = 1
 pubs_title = "Publications"
 
 # Number of publications to show on main page.
-pubs_count = 5
+pubs_count = 10
 
 [[params.education]]
   course = "Ph.D. Social Sciences"
