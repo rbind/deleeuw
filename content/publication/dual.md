@@ -4,7 +4,7 @@ authors = ["Jan de Leeuw"]
 date = "2017-01-03"
 publication = “Jan's Last Gasp, 2017, no. 01”
 title = "Quadratic Programming with Quadratic Constraints"
-url_pdf = "http://gifi.stat.ucla.edu/boxqp/dual.pdf"
+url_pdf = "http://gifi.stat.ucla.edu/dual/dual.pdf"
 url_project = "http://gifi.stat.ucla.edu/dual"
 +++
 
