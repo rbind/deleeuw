@@ -11,6 +11,5 @@ url_pdf = "http://gifi.stat.ucla.edu/above/above.pdf"
 name = "HTML"
 url = "http://gifi.stat.ucla.edu/above/above.html"
 
-
 +++
 

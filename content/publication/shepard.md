@@ -6,5 +6,11 @@ publication = "Jan's Last Gasp, 2017, no. 05"
 title = "Shepard Non-metric Multidimensional Scaling"
 url_pdf = "http://gifi.stat.ucla.edu/shepard/shepard.pdf"
 url_project = "http://gifi.stat.ucla.edu/shepard"
+
+
+[[url_custom]]
+name = "HTML"
+url = "http://gifi.stat.ucla.edu/shepard/shepard.html"
+
 +++
 

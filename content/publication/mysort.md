@@ -6,5 +6,11 @@ publication = "Jan's Last Gasp, 2017, no. 06"
 title = "Exceedingly Simple Sorting with Indices"
 url_pdf = "http://gifi.stat.ucla.edu/mysort/mysort.pdf"
 url_project = "http://gifi.stat.ucla.edu/mysort"
+
+
+[[url_custom]]
+name = "HTML"
+url = "http://gifi.stat.ucla.edu/mysort/mysort.html"
+
 +++
 

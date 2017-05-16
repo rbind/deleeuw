@@ -6,5 +6,11 @@ publication = "Jan's Last Gasp, 2017, no. 10"
 title = "Factor Analysis as Matrix Decomposition and Approximation: I"
 url_pdf = "http://gifi.stat.ucla.edu/factor/factor.pdf"
 url_project = "http://gifi.stat.ucla.edu/factor"
+
+
+[[url_custom]]
+name = "HTML"
+url = "http://gifi.stat.ucla.edu/factor/factor.html"
+
 +++
 

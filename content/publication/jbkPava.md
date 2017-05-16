@@ -6,5 +6,11 @@ publication = "Jan's Last Gasp, 2017, no. 07"
 title = "Exceedingly Simple Monotone Regression"
 url_pdf = "http://gifi.stat.ucla.edu/jbkPava/jbkPava.pdf"
 url_project = "http://gifi.stat.ucla.edu/jbkPava"
+
+
+[[url_custom]]
+name = "HTML"
+url = "http://gifi.stat.ucla.edu/jbkPava/jbkPava.html"
+
 +++
 

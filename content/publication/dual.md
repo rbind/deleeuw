@@ -6,5 +6,11 @@ publication = "Jan's Last Gasp, 2017, no. 01"
 title = "Quadratic Programming with Quadratic Constraints"
 url_pdf = "http://gifi.stat.ucla.edu/dual/dual.pdf"
 url_project = "http://gifi.stat.ucla.edu/dual"
+
+
+[[url_custom]]
+name = "HTML"
+url = "http://gifi.stat.ucla.edu/dual/dual.html"
+
 +++
 

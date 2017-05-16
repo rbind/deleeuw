@@ -6,5 +6,11 @@ publication = "Jan's Last Gasp, 2017, no. 04"
 title = "Multidimensional Scaling with Distance Bounds"
 url_pdf = "http://gifi.stat.ucla.edu/updown/updown.pdf"
 url_project = "http://gifi.stat.ucla.edu/updown"
+
+
+[[url_custom]]
+name = "HTML"
+url = "http://gifi.stat.ucla.edu/updown/updown.html"
+
 +++
 
