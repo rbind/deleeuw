@@ -23,8 +23,8 @@
     {{ end }}
   </div>
   <div class="column small-12 medium-6">
-    <h2>Published</h2>
-    {{ range (where .Data.Pages "Params.publication" "!=" "MDS").GroupByDate "2006" "desc" }}
+    <h2>Multivariate Analysis</h2>
+    {{ range (where .Data.Pages "Params.publication" "==" "MVA").GroupByDate "2006" "desc" }}
     <div class="row">
       <div class="column small-2 medium-2">
         <h3>{{ .Key }}</h3>
@@ -42,8 +42,8 @@
 </div>
 <div class="row">
   <div class="column small-12 medium-6">
-    <h2>Multidimensional Scaling</h2>
-    {{ range (where .Data.Pages "Params.publication" "==" "MDS").GroupByDate "2006" "desc" }}
+    <h2>Optimization</h2>
+    {{ range (where .Data.Pages "Params.publication" "==" "OPT").GroupByDate "2006" "desc" }}
     <div class="row">
       <div class="column small-2 medium-2">
         <h3>{{ .Key }}</h3>
@@ -59,8 +59,8 @@
     {{ end }}
   </div>
   <div class="column small-12 medium-6">
-    <h2>Published</h2>
-    {{ range (where .Data.Pages "Params.publication" "!=" "MDS").GroupByDate "2006" "desc" }}
+    <h2>Auxilaries</h2>
+    {{ range (where .Data.Pages "Params.publication" "==" "AUX").GroupByDate "2006" "desc" }}
     <div class="row">
       <div class="column small-2 medium-2">
         <h3>{{ .Key }}</h3>
