@@ -4,8 +4,8 @@ authors = ["Jan de Leeuw"]
 date = "2017-01-13"
 publication = "Jans Last Gasp, 2017, no. 02"
 title = "Multidimensional Scaling with Lower Bounds"
-url_pdf = "http://gifi.stat.ucla.edu/above/above.pdf"
 url_project = "http://gifi.stat.ucla.edu/above"
+url_pdf = "http://gifi.stat.ucla.edu/above/above.pdf"
 
 [[url_custom]]
 name = "HTML"
