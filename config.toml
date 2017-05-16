@@ -5,6 +5,7 @@ copyright = "Copyright (c) 2016 Marcus Brinkmann"
 canonifyurls = true
 paginate = 3
 theme = "hugo-finite"
+math = true
 
 [params]
 
@@ -20,16 +21,16 @@ bio_full = "Jan de Leeuw: retired, not finished"
 bio_twitter = "deleeuw_jan"
 
 # Title of posts section on main page.
-#posts_title = "Posts"
+posts_title = "Posts"
 
 # Number of posts to show on main page.
-#posts_count = 1
+posts_count = 1
 
 # Title of publications section on main page.
-#pubs_title = "Publications"
+pubs_title = "Publications"
 
 # Number of publications to show on main page.
-#pubs_count = 5
+pubs_count = 5
 
 [[params.education]]
   course = "Ph.D. Social Sciences"
