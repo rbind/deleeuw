@@ -3,7 +3,7 @@ date = "2017-05-16T10:10:00"
 draft = false
 tags = []
 title = "Just an Equation"
-math = true
+math = false
 +++
 
 <script type="text/javascript"
