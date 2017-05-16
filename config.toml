@@ -24,13 +24,13 @@ bio_twitter = "deleeuw_jan"
 posts_title = "Posts"
 
 # Number of posts to show on main page.
-posts_count = 1
+posts_count = 2
 
 # Title of publications section on main page.
 pubs_title = "Publications"
 
 # Number of publications to show on main page.
-pubs_count = 10
+pubs_count = 5
 
 [[params.education]]
   course = "Ph.D. Social Sciences"
