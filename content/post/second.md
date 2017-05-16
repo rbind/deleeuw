@@ -39,10 +39,13 @@ MathJax.Hub.Config({
 
 
 Define
+
 <div>
  $$\Phi(x):=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^x\exp\{-\frac12 z^2\}dz,$$
 </div>
+
 and thus
+
 <div>
  $$\mathcal{D}\Phi(x)=\frac{1}{\sqrt{2\pi}}\exp\{-\frac12 x^2\}.$$
 </div>
