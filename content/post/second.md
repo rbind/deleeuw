@@ -36,7 +36,7 @@ MathJax.Hub.Config({
 });
 </script>
 
-
-<div>
-	$$\Phi(x)=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^x\exp\{-\frac12 z^2\}dz$$`
-</div>
+Define
+`$$\Phi(x):=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^x\exp\{-\frac12 z^2\}dz$$`,
+and thus
+`$$\mathcal{D}\Phi(x)=\frac{1}{\sqrt{2\pi}}\exp\{-\frac12 x^2\}$$`
