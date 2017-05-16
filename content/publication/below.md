@@ -3,7 +3,7 @@ abstract = "We give an algorithm, with R code, to minimize the multidimensional 
 authors = ["Jan de Leeuw"]
 date = "2017-01-13"
 title = "Multidimensional Scaling with Upper Bounds"
-publication = ""
+publication = "MDS"
 url_pdf = "http://gifi.stat.ucla.edu/below/below.pdf"
 url_project = "http://gifi.stat.ucla.edu/below"
 
@@ -14,5 +14,3 @@ url = "http://gifi.stat.ucla.edu/below/below.html"
 
 +++
 
-
-publication = "Jan's Last Gasp, 2017, no. 03"
