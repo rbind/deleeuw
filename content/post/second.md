@@ -6,6 +6,7 @@ title = "Just an Equation"
 math = true
 +++
 
+<div>
 <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
@@ -35,6 +36,7 @@ MathJax.Hub.Config({
     }
 });
 </script>
+</div>
 
 Define
 
