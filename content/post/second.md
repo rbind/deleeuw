@@ -2,14 +2,12 @@
 date = "2017-05-16T10:10:00"
 draft = false
 tags = []
-title = "Just an Equation"
+title = "Just Some Equation"
 math = true
 +++
-
 <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
-
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   tex2jax: {
@@ -23,7 +21,6 @@ MathJax.Hub.Config({
   }
 });
 </script>
-
 <script type="text/x-mathjax-config">
   MathJax.Hub.Queue(function() {
     var all = MathJax.Hub.getAllJax(), i;
@@ -32,13 +29,9 @@ MathJax.Hub.Config({
     }
 });
 </script>
-
-Define
-
+Math works. Define
  `$$\Phi(x):=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^x\exp\{-\frac12 z^2\}dz,$$`
-
 and thus
-
  `$$\mathcal{D}\Phi(x)=\frac{1}{\sqrt{2\pi}}\exp\{-\frac12 x^2\}.$$`
 
 
