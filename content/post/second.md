@@ -30,7 +30,7 @@ MathJax.Hub.Config({
 });
 </script>
 
-Math works on this blog. **Proof:** Define
+MathJax works on this blog. **Proof:** Define
 
  `$$\Phi(x):=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^x\exp\{-\frac12 z^2\}dz,$$`
 
