@@ -1,8 +1,5 @@
 +++
-abstract = "We give necessary and sufficient conditions for solvability of A_j=XW_jX',
-  with the A_j are m given positive semi-definite matrices of order n. The solution
-  X is n x p and the m solutions W_j are required to be diagonal, positive
-  semi-definite, and adding up to the identity. We do not require that p ≤ n."
+abstract = "We give necessary and sufficient conditions for solvability of A(j)=XW(j)t(X), with the A(j) are m given positive semi-definite matrices of order n. The solution X is n x p and the m solutions W(j) are required to be diagonal, positive semi-definite, and adding up to the identity. We do not require that p ≤ n."
 authors = ["Jan de Leeuw"]
 date = "2017-05-21"
 publication = "AUX"
