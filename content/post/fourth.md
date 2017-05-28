@@ -29,4 +29,4 @@ MathJax.Hub.Queue(function() {
 });
 </script>
 
-We give conditions for solvability of `$A_j=XW_jX^T$`, with the `$A_j$` m given PSD matrices of order `$n$`. The solution `$X$` is `$n\times p$` and the $m$ solutions `$W_j$` are diagonal, positive semi-definite, and add up to the identity. We do not require that `$p\leq n$`. [**Read**](http://gifi.stat.ucla.edu/simul/simul.html) [**Download**](http://gifi.stat.ucla.edu/simul/simul.pdf)
+We give conditions for solvability of `$A_j=XW_jX^T$`, with the `$A_j$` `$m$` given psd matrices of order `$n$`. Here `$X$` is `$n\times p$` and the `$W_j$` are diagonal, psd, and add up to the identity. We do not require that `$p\leq n$`. [**Read**](http://gifi.stat.ucla.edu/simul/simul.html) [**Download**](http://gifi.stat.ucla.edu/simul/simul.pdf)
