@@ -21,12 +21,6 @@ MathJax.Hub.Config({
          extensions: ["AMSmath.js", "AMSsymbols.js"] }
   }
 });
-MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for(i = 0; i < all.length; i += 1) {
-        all[i].SourceElement().parentNode.className += ' has-jax';
-    }
-});
 </script>
 
 We give conditions for solvability of `$A_j=XW_jX^T$`, with the `$A_j$` `$m$` given psd matrices of order `$n$`. Here `$X$` is `$n\times p$` and the `$W_j$` are diagonal, psd, and add up to the identity. [**Read**](http://gifi.stat.ucla.edu/simul/simul.html) [**Download**](http://gifi.stat.ucla.edu/simul/simul.pdf)
