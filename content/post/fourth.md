@@ -1,9 +1,34 @@
 +++
-date = "2017-05-28T11:41:00"
+date = "2017-05-21T00:00:00"
 draft = false
 tags = []
-title = "Weighted Least Squares"
+title = "Simulaneous Diagonalization"
 +++
-In many situations in numerical analysis least squares loss functions with diagonal weight matrices are much easier to minimize than least square loss functions with full positive semi-definite weight matrices. We use majorization to replace problems with a full weight matrix by a sequence of diagonal weight matrix problems. Diagonal weights which optimally approximate the full weights are computed using a simple semi-definite programming procedure.
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
 
-[Read It](http://gifi.stat.ucla.edu/wls/wls.html)<br>[Download It](http://gifi.stat.ucla.edu/wls/wls.pdf)
+We give necessary and sufficient conditions for solvability of $A_j=XW_jX'$, with the $A_j$ are m given positive semi-definite matrices of order $n$. The solution $X$ is $n\times p$ and the $m$ solutions $W_j$ are required to be diagonal, positive semi-definite, and adding up to the identity. We do not require that$p\leq n$.
+
+[Read It](http://gifi.stat.ucla.edu/simul/simul.html)<br>[Download It](http://gifi.stat.ucla.edu/simul/simul.pdf)
