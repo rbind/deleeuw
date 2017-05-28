@@ -35,3 +35,4 @@ MathJax.Hub.Config({
 
 We give conditions for solvability of `$A_j=XW_jX^T$`, where the `$A_j$` are `$m$` given psd matrices of order `$n$`. Here `$X$` must be `$n\times p$`, possibly with `$p>n$`, and the `$W_j$` must be diagonal, psd, and add up to the identity.
 
+We give conditions for solvability of A<sub>j</sub>XW<sub>j</sub>X<sup>T<sup>, where the `$A_j$` are `$m$` given psd matrices of order `$n$`. Here `$X$` must be `$n\times p$`, possibly with `$p>n$`, and the `$W_j$` must be diagonal, psd, and add up to the identity.
