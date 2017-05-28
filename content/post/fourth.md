@@ -23,4 +23,13 @@ MathJax.Hub.Config({
 });
 </script>
 
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+
 We give conditions for solvability of `$A_j=XW_jX^T$`, where the `$A_j$` are `$m$` given psd matrices of order `$n$`. Here `$X$` must be `$n\times p$`, possibly with `$p>n$`, and the `$W_j$` must be diagonal, psd, and add up to the identity.
