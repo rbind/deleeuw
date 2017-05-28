@@ -71,6 +71,17 @@ pubs_count = 8
   link = "https://www.researchgate.net/profile/Jan_De_Leeuw"
   text = "ResearchGate"
 
+[[params.social]]
+  icon = "google"
+  icon_pack = "fa"
+  link = "https://scholar.google.com/citations?user=Ccp--gIAAAAJ&hl=en"
+  text = "Google Scholar"
+
+[[params.social]]
+  icon = "wikipedia-w"
+  icon_pack = "fa"
+  link = "https://en.wikipedia.org/wiki/Jan_de_Leeuw"
+  text = "Wikipedia"
 
 
 # Navigation Links
@@ -88,7 +99,7 @@ pubs_count = 8
 
 [[menu.main]]
   name = "Bibliography"
-  url = "http://gifi.stat.ucla.edu"
+  url = "http://gifi.stat.ucla.edu/janspubs/0_bib_material/index.html"
   weight = 3
 
 [[menu.main]]
