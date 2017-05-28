@@ -3,6 +3,7 @@ date = "2017-05-21T00:00:00"
 draft = false
 tags = []
 title = "Simulaneous Diagonalization"
+math = true
 +++
 <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
@@ -29,6 +30,6 @@ MathJax.Hub.Config({
 });
 </script>
 
-We give necessary and sufficient conditions for solvability of $A_j=XW_jX'$, with the $A_j$ are m given positive semi-definite matrices of order $n$. The solution $X$ is $n\times p$ and the $m$ solutions $W_j$ are required to be diagonal, positive semi-definite, and adding up to the identity. We do not require that$p\leq n$.
+We give necessary and sufficient conditions for solvability of \(A_j=XW_jX'\), with the \(A_j\) are m given positive semi-definite matrices of order $n$. The solution $X$ is $n\times p$ and the $m$ solutions $W_j$ are required to be diagonal, positive semi-definite, and adding up to the identity. We do not require that$p\leq n$.
 
 [Read It](http://gifi.stat.ucla.edu/simul/simul.html)<br>[Download It](http://gifi.stat.ucla.edu/simul/simul.pdf)
