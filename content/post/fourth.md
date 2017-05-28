@@ -7,32 +7,4 @@ math = true
 highlight = false
 +++
 
-<script type="text/javascript"
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {
-    inlineMath: [['$','$'], ['\\(','\\)']],
-    displayMath: [['$$','$$'], ['\[','\]']],
-    processEscapes: true,
-    processEnvironments: true,
-    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-    TeX: { equationNumbers: { autoNumber: "AMS" },
-         extensions: ["AMSmath.js", "AMSsymbols.js"] }
-  }
-});
-</script>
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for(i = 0; i < all.length; i += 1) {
-        all[i].SourceElement().parentNode.className += ' has-jax';
-    }
-});
-</script>
-
-We give conditions for solvability of `$A_j=XW_jX^T$`, where the `$A_j$` are `$m$` given psd matrices of order `$n$`. Here `$X$` must be `$n\times p$`, possibly with `$p>n$`, and the `$W_j$` must be diagonal, psd, and add up to the identity.
-
 We give conditions for solvability of A<sub>j</sub>=XW<sub>j</sub>X<sup>T</sup>, where the A<sub>j</sub> are m given psd matrices of order n. Here X must be n x p, possibly with p > n, and the W<sub>j</sub> must be diagonal, psd, and add up to the identity.
