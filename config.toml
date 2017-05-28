@@ -73,18 +73,17 @@ pubs_count = 8
   site = "ResearchGate"
 
 [[params.social]]
-  icon = "google"
-  icon_pack = "fa"
-  link = "https://scholar.google.com/citations?user=Ccp--gIAAAAJ&hl=en"
-  text = "Google Scholar"
-
-[[params.social]]
   icon = "wikipedia-w"
   icon_pack = "fa"
   link = "https://en.wikipedia.org/wiki/Jan_de_Leeuw"
   text = "Jan_de_Leeuw"
   side = "Wikipedia"
 
+[[params.social]]
+  icon = "google"
+  icon_pack = "fa"
+  link = "https://scholar.google.com/citations?user=Ccp--gIAAAAJ&hl=en"
+  text = "Google Scholar"
 
 # Navigation Links
 # The weight parameter defines the order that the links will appear in.
