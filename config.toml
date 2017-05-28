@@ -69,7 +69,8 @@ pubs_count = 8
   icon = "researchgate"
   icon_pack = "ai"
   link = "https://www.researchgate.net/profile/Jan_De_Leeuw"
-  text = "ResearchGate"
+  text = "Jan_De_Leeuw"
+  site = "ResearchGate"
 
 [[params.social]]
   icon = "google"
@@ -81,7 +82,8 @@ pubs_count = 8
   icon = "wikipedia-w"
   icon_pack = "fa"
   link = "https://en.wikipedia.org/wiki/Jan_de_Leeuw"
-  text = "Wikipedia"
+  text = "Jan_de_Leeuw"
+  side = "Wikipedia"
 
 
 # Navigation Links
