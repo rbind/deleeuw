@@ -32,5 +32,4 @@ MathJax.Hub.Config({
 </script>
 
 We give necessary and sufficient conditions for solvability of `$A_j=XW_jX^T$`, with the `$A_j$` are m given positive semi-definite matrices of order `$n$`. The solution `$X$` is `$n\times p$` and the $m$ solutions `$W_j$` are required to be diagonal, positive semi-definite, and adding up to the identity. We do not require that `$p\leq n$`.
-
-[Read It](http://gifi.stat.ucla.edu/simul/simul.html)<br>[Download It](http://gifi.stat.ucla.edu/simul/simul.pdf)
+[Read It](http://gifi.stat.ucla.edu/simul/simul.html) [Download It](http://gifi.stat.ucla.edu/simul/simul.pdf)
