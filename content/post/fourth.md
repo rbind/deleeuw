@@ -21,8 +21,6 @@ MathJax.Hub.Config({
          extensions: ["AMSmath.js", "AMSsymbols.js"] }
   }
 });
-</script>
-<script type="text/x-mathjax-config">
   MathJax.Hub.Queue(function() {
     var all = MathJax.Hub.getAllJax(), i;
     for(i = 0; i < all.length; i += 1) {
