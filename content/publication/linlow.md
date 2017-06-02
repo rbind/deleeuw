@@ -9,7 +9,7 @@ url_pdf = "http://gifi.stat.ucla.edu/linlow/linlow.pdf"
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/linlow/above.html"
+url = "http://gifi.stat.ucla.edu/linlow/linlow.html"
 
 +++
 
