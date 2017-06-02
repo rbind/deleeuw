@@ -109,6 +109,11 @@ pubs_count = 8
   weight = 4
 
 [[menu.main]]
+  name = "My Name"
+  url = "https://gifi.stat.ucla.edu/jan.mov"
+  weight = 4
+
+[[menu.main]]
   name = "Contact"
   url = "/#contact"
   weight = 5
