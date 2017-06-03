@@ -86,6 +86,12 @@ pubs_count = 8
   text = "Google Scholar"
 
 [[params.social]]
+  icon = "university"
+  icon_pack = "fa"
+  link = "https://www.genealogy.math.ndsu.nodak.edu/id.php?id=36682&fChrono=1"
+  text = "Mathematics Genealogy"
+
+[[params.social]]
   icon = "file-audio-o"
   icon_pack = "fa"
   link = "https://drive.google.com/open?id=0B3XRUQgTUKEMVEpENHNOYzNVZm8"
@@ -116,22 +122,7 @@ pubs_count = 8
   weight = 3
 
 [[menu.main]]
-  name = "Genealogy"
-  url = "https://www.genealogy.math.ndsu.nodak.edu/id.php?id=36682&fChrono=1"
-  weight = 4
-
-[[menu.main]]
-  name = "My First Name"
-  url = "https://drive.google.com/open?id=0B3XRUQgTUKEMVEpENHNOYzNVZm8"
-  weight = 5
-
-[[menu.main]]
-  name = "My Last Name"
-  url = "https://drive.google.com/open?id=0B3XRUQgTUKEMTERXMFRJeDJqR2M"
-  weight = 6
-
-[[menu.main]]
   name = "Contact"
   url = "/#contact"
-  weight = 7
+  weight = 4
 
