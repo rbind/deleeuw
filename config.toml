@@ -84,7 +84,7 @@ pubs_count = 8
   icon_pack = "fa"
   link = "https://en.wikipedia.org/wiki/Jan_de_Leeuw"
   text = "Jan_de_Leeuw"
-  side = "Wikipedia"
+  site = "Wikipedia"
 
 [[params.social]]
   icon = "google"
