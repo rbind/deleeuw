@@ -3,9 +3,26 @@ date = "2017-06-03T09:00:00"
 draft = false
 tags = []
 title = "Majorization"
+math = true
 +++
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
 I use majorization in many of my papers. So maybe a short general introduction is useful. The problem we try to solve is to construct convergent and stable iterative algorithm to minimize a function *f* over a set *X*. 
 
-An algorithm is a map *A* from *X* into *X* 
-* *x*<sup>*{(k+1)}*</sup>=A(*x*<sup>*{(k)}*</sup>)
-* *f(A(x))* < *f(x)* for all *x* in *X* 
+An algorithm is a map $A$ from $X$ into $X$ 
+* $x^{(k+1)}=A(x{(k)})$
+* $f(A(x)) < f(x)$ for all $x$ in $X$
