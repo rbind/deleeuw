@@ -45,8 +45,16 @@ $$\sigma(X)=\sum_{i=1}^n\sum_{j=1}^n w_{ij}(\delta_{ij}-d_{ij}(X))^2,$$
 
 over all `$n\times p$` *configuration* matrices $X$. Here `$W=\{w_{ij}\}$` and `$\Delta=\{\delta_{ij}\}$`
 are given symmetric and non-negative matries, with zeroes on the diagonal, and `$D(X)=\{d_{ij}(X)\}$`
-is the matrix with Euclidean distances between the `$n$` points in `$\mathbb{R}^p$` with coordinates 
-in the rows of `$X$`.
+is the matrix-valued function of Euclidean distances between the `$n$` points in `$\mathbb{R}^p$` with coordinates in the rows of `$X$`.
+
+Now
+
+<div>
+$$d_{ij}(X)=\sqrt{\mathbf{tr}\ X'A_{ij}X},$$
+</div>
+
+where `$A_{ij}$` is a symmetric matrix of order `$n$` with elements `$(i,i)$` and `$(j,j)$` equal to +1
+and elements `$(i,j)$` and `$(j,i)$` equal to -1. All other elements are zero.
 
 <h2>Example: The Weber Point</h2>
 
