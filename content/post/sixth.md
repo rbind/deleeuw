@@ -15,7 +15,7 @@ A *majorization scheme* for `$f$` on `$X$` is a function `$g:X\otimes X\rightarr
 * `$g(x,y)\geq f(x)$` for all `$x,y\in X$`.
 * `$g(x,x)=f(x)$` for all `$x\in X$`.
 
-In other words `$f(x)=\min_{y\in X}g(x,y)$` and `$x\in\mathop{\text{argmin}}_{y\in X}g(x,y)$`. A majorization scheme is *strict* if `$g(x,y)<f(x)$` for all `$x\not =y\in X$`. 
+In other words `$f(x)=\min_{y\in X}g(x,y)$` and `$x\in\mathop{\text{argmin}}_{y\in X}g(x,y)$`. A majorization scheme is *strict* if `$g(x,y)<f(x)$` for all `$x\not =y$` in `$X$`. 
 
 A majorization scheme generates an *iterative majorization algorithm* by the rule
 
@@ -28,7 +28,8 @@ The key result in majorization theory is the *sandwich inequality*
 $$f(x^{(k+1)})\leq g(x^{(k+1)},x^{(k)})\leq g(x^{(k)},x^{(k)})=f(x^{(k)}).$$
 </div>
 
-If the sequence `$f$` is bounded below, the iterates stay in a compact set, the majorization scheme is continuous, and all minima are attained and unique, then we have convergence 
+If the sequence `$f$` is bounded below, the iterates stay in a compact set, the majorization scheme is continuous, and all minima are attained and unique, then we have convergence to a *fixed point* 
+`$x_\infty\in X$`, i.e. a point with `$x_\infty\in\mathop{\text{\argmin}}_{x\in X}g(x,x_\infty)$`.
 
 <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
