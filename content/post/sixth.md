@@ -38,9 +38,11 @@ The assumptions for convergence can be relaxed a great deal, but we will not go 
 
 First we give an example in which a simple inequality is used to derive a majorization scheme. In
 multidimensional scaling, or MDS, we minimize
+
 <div>
 $$\sigma(X)=\sum_{i=1}^n\sum_{j=1}^n w_{ij}(\delta_{ij}-d_{ij}(X))^2,$$
 </div>
+
 over all `$n\times p$` *configuration* matrices $X$. Here `$W=\{w_{ij}\}$` and `$\Delta=\{\delta_{ij}\}$`
 are given symmetric and non-negative matries, with zeroes on the diagonal, and `$D(X)=\{d_{ij}(X)\}$`
 is the matrix with Euclidean distances between the `$n$` points in `$\mathbb{R}^p$` with coordinates 
