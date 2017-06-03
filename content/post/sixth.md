@@ -6,29 +6,11 @@ title = "Majorization"
 math = true
 +++
 I use majorization in many of my papers. So maybe a short general introduction is useful. 
-I start with a short introduction to the Zangwill theory of iterative algorithms and
-then rapidly go to majorization algorithms. We also add some material on the Ostrowski
-theory of convergence speed for linearly convergent majorization algorithms.  
+I start with a short introduction to a simplified version of the  Zangwill theory
+of iterative algorithms and then rapidly go to majorization algorithms. We also add some material on the Ostrowski theory of convergence speed for linearly convergent majorization algorithms.  
 <!--more-->
 
 The problem we try to solve throughout is to construct a convergent and stable iterative algorithm to minimize a function `$f$` over a set `$X$`. 
-
-An *iterative algorithm* on a set `$X$` is a triple `$\langle\mathcal{A},S,f\rangle$`. Here `$\mathcal{A}:X\rightarrow\powerset(X)$` is the *update map*, `$S\subseteq X$` are the *targets*, and `$f:X\rightarrow\mathbb{R}$` is the *evaluation*. Note that `$\powerset(X)$` is the power set 
-of `$X$`, i.e. the set of all subsets.
-
-An algorithm is *consistent* if `$S=\{x\in X\mid x\in\mathcal{A}(x)\}$`
-and *strongly consistent* if `$S=\{x\in X\mid {\x\}=\mathcal{A}(x)\}$`.
-
-An algorithm is *stable* if `$f(A(x))\leq f(x)$` for all `$x\in X$`, 
-and *strongly stable* if `$f(A(x))<f(x)$` for all `$x\in X\backslash S$`.
-
-An algorithm is *continuous* if for any two infinite sequences `$x^{(k)}\in X$` with `$x^{(k)}\rightarrow x_\infty$` and `$y^{(k)}\in X$` with
-`$y^{(k)}\rightarrow y_\infty$` `$y^{(k)}\in\mathcal{A}(x^{(k)})$` implies `$y_\infty\in\mathcal{A}(x_\infty)$`
-
-An *iterative algorithm* generates a sequence, starting with `$x^{0}$`, by the rule
-<div>
-$$x^{(k+1)}\in A(x^{(k)})$$
-</div>
 
 
 <script type="text/javascript"
