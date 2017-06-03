@@ -34,11 +34,23 @@ If the function `$f$` is bounded below, the iterates stay in a compact set, the 
 `$x_\infty\in X$`, i.e. a point with `$x_\infty=\mathop{\text{argmin}}_{x\in X}g(x,x_\infty)$`.
 The assumptions for convergence can be relaxed a great deal, but we will not go into such details.
 
-<h2>Example: Logistic Regression</h2>
-
 <h2>Example: Multidimensional Scaling</h2>
 
-<h2>Example: </h2>
+First we give an example in which a simple inequality is used to derive a majorization scheme. In
+multidimensional scaling, or MDS, we minimize
+<div>
+$$\sigma(X)=\sum_{i=1}^n\sum_{j=1}^n w_{ij}(\delta_{ij}-d_{ij}(X))^2,$$
+</div>
+over all `$n\times p$` *configuration* matrices $X$. Here `$W=\{w_{ij}\}$` and `$\Delta=\{\delta_{ij}\}$`
+are given symmetric and non-negative matries, with zeroes on the diagonal, and `$D(X)=\{d_{ij}(X)\}$`
+is the matrix with Euclidean distances between the `$n$` points in `$\mathbb{R}^p$` with coordinates 
+in the rows of `$X$`.
+
+<h2>Example: The Weber Point</h2>
+
+<h2>Example: EM</h2>
+
+<h2>Example: Logistic Regression</h2>
 
 <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
