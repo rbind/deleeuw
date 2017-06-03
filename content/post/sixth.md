@@ -5,12 +5,12 @@ tags = []
 title = "Majorization"
 math = true
 +++
-I use majorization in many of my papers. So a short general introduction with some simple examples may be useful. Here we go. Read more ...
+I use majorization in many of my papers. So a short general introduction with some simple examples may be useful. Here we go.
 <!--more-->
 
 <h2>Introduction</h2>
 
-The problem we try to solve throughout is to construct a convergent and stable iterative algorithm to minimize a function `$f:X\rightarrow\mathbb{R}$` over a set `$X\subseteq\mathbb{R}^n$`. 
+The problem we try to solve throughout is to construct a convergent and stable iterative algorithm to minimize a function `$f:X\rightarrow\mathbb{R}$` over `$X\subseteq\mathbb{R}^n$`. 
 
 A *majorization scheme* for `$f$` on `$X$` is a function `$g:X\otimes X\rightarrow\mathbb{R}$` such that
 
@@ -32,9 +32,13 @@ $$f(x^{(k+1)})\leq g(x^{(k+1)},x^{(k)})\leq g(x^{(k)},x^{(k)})=f(x^{(k)}).$$
 
 If the function `$f$` is bounded below, the iterates stay in a compact set, the majorization scheme is continuous, and all minima are attained at unique points, then we have convergence to a *fixed point* 
 `$x_\infty\in X$`, i.e. a point with `$x_\infty=\mathop{\text{argmin}}_{x\in X}g(x,x_\infty)$`.
-The assumptions for convergence can be relaxed a great deal, but we will not discuss these details.
+The assumptions for convergence can be relaxed a great deal, but we will not go into such details.
 
+<h2>Example: Logistic Regression</h2>
 
+<h2>Example: Multidimensional Scaling</h2>
+
+<h2>Example: </h2>
 
 <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
