@@ -5,12 +5,23 @@ tags = []
 title = "Majorization"
 math = true
 +++
-I use majorization in many of my papers. So maybe a short general introduction is useful. The problem we try to solve is to construct a convergent and stable iterative algorithm to minimize a function `$f$` over a set `$X$`. 
-&zwnj;&zwnj;&zwnj;&zwnj;&zwnj;&zwnj;&zwnj;&zwnj;&zwnj;&zwnj;
-An algorithm &zwnj;&zwnj;&zwnj;&zwnj;is a map `$A$` from `$X$` into `$X$` 
+I use majorization in many of my papers. So maybe a short general introduction is useful. 
+I use majorization in many of my papers. So maybe a short general introduction is useful. 
+I use majorization in many of my papers. So maybe a short general introduction is useful. 
+I use majorization in many of my papers. So maybe a short general introduction is useful. 
+I use majorization in many of my papers. So maybe a short general introduction is useful. 
 
-* `$x^{(k+1)}=A(x^{(k)})$`
-* `$f(A(x)) < f(x)$` for all `$x$` in `$X$`
+The problem we try to solve is to construct a convergent and stable iterative algorithm to minimize a function `$f$` over a set `$X$`. 
+
+An **algorithm** is a map `$A$` from `$X$` into `$X$`. An **iterative algorithm** generates a sequence, starting with `$x^{0}$`, by the rule
+<div>
+$$x^{(k+1)}=A(x^{(k)})$$
+</div>
+An algorithm is **stable** if
+<div>
+$$f(A(x)) < f(x)$$ 
+</div>div>
+for all `$x$` in `$X$`
 
 
 <script type="text/javascript"
