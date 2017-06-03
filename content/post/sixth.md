@@ -6,12 +6,14 @@ title = "Majorization"
 math = true
 +++
 I use majorization in many of my papers. So maybe a short general introduction is useful. 
-I start with a short introduction to a simplified version of the  Zangwill theory
-of iterative algorithms and then rapidly go to majorization algorithms. We also add some material on the Ostrowski theory of convergence speed for linearly convergent majorization algorithms.  
 <!--more-->
 
-The problem we try to solve throughout is to construct a convergent and stable iterative algorithm to minimize a function `$f$` over a set `$X$`. 
+The problem we try to solve throughout is to construct a convergent and stable iterative algorithm to minimize a function `$f:X\rightarrow\mathbb{R}$` over a set `$X\subseteq\mathbb{R}^n$`. 
 
+A *majorization scheme* for `$f$` on `$X$` is a function `$g:X\otimes X\rightarrow\mathbb{R}$` such that
+
+* `$g(x,y)\geq f(x)$` for all `$x,y\in X$`.
+* `$g(x,x)=f(x)$` for all `$x\in X$`.
 
 <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
