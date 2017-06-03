@@ -11,7 +11,7 @@ An algorithm is a map `$A$` from `$X$` into `$X$`
 
 * `$x^{(k+1)}=A(x^{(k)})$`
 * `$f(A(x)) < f(x)$` for all `$x$` in `$X$`
-
+<!--more-->
 <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
