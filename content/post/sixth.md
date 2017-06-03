@@ -5,7 +5,7 @@ tags = []
 title = "Majorization"
 math = true
 +++
-I use majorization in many of my papers. So maybe a short general introduction is useful. 
+I use majorization in many of my papers. So a short general introduction may be useful. 
 <!--more-->
 
 The problem we try to solve throughout is to construct a convergent and stable iterative algorithm to minimize a function `$f:X\rightarrow\mathbb{R}$` over a set `$X\subseteq\mathbb{R}^n$`. 
@@ -14,6 +14,8 @@ A *majorization scheme* for `$f$` on `$X$` is a function `$g:X\otimes X\rightarr
 
 * `$g(x,y)\geq f(x)$` for all `$x,y\in X$`.
 * `$g(x,x)=f(x)$` for all `$x\in X$`.
+
+In other words `$f(x)=\min_{y\in X}g(x,y)$` and `$x\in\mathop{argmin}_{y\in X}g(x,y)$`.
 
 <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
