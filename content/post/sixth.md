@@ -18,23 +18,11 @@ The problem we try to solve is to construct a convergent and stable iterative al
 An *iterative algorithm* on a set `$X$` is a triple `$\langle\mathcal{A},S,f\rangle$`. Here `$\mathcal{A}:X\rightarrow\mathcal{P}(X)$` is the *update map*, `$S\subseteq X$` are the *targets*, and `$f:X\rightarrow\mathbb{R}$` is the *evaluation*. Note that `$\mathcal{P}(X)$` is the power set 
 of `$X$`, i.e. the set of all subsets.
 
-An algorithm is *consistent* if
-<div>
-$$\text{if }x\in S\text{ if and only if }x\in\mathcal{A}(x),$$
-</div>
-and *strongly consistent* if
-<div>
-$$\text{if }x\in S\text{ if and only if }\{x\}=\mathcal{A}(x).$$
-</div>
+An algorithm is *consistent* if `$x\in S$` if and only if `$x\in\mathcal{A}(x)$`.
+and *strongly consistent* if `$x\in S$` if and only if `$\{x\}=\mathcal{A}(x).$`
 
-An algorithm is *stable* if
-<div>
-$$f(A(x))\leq f(x)\text{ for all }x\in X$$ 
-</div>
-and *strongly stable* if
-<div>
-$$f(A(x))<f(x)\text{ for all }x\in X\backslash S$$ 
-</div>
+An algorithm is *stable* if `$f(A(x))\leq f(x)$` for all `$x\in X$`. 
+and *strongly stable* if `$f(A(x))<f(x)$` for all `$x\in X\backslash S$`.
 
 An *iterative algorithm* generates a sequence, starting with `$x^{0}$`, by the rule
 <div>
