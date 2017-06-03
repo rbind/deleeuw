@@ -69,7 +69,7 @@ pubs_count = 8
   icon = "researchgate"
   icon_pack = "ai"
   link = "https://www.researchgate.net/profile/Jan_De_Leeuw"
-  text = "Jan_de_Leeuw"
+  text = "Jan"
   site = "ResearchGate"
 
 [[params.social]]
