@@ -110,12 +110,12 @@ pubs_count = 8
 
 [[menu.main]]
   name = "My First Name"
-  url = "https://gifi.stat.ucla.edu/jan.mov"
+  url = "https://drive.google.com/open?id=0B3XRUQgTUKEMMXNsdm9oYXVHQzQ"
   weight = 5
 
 [[menu.main]]
   name = "My Last Name"
-  url = "https://gifi.stat.ucla.edu/leeuw.mov"
+  url = "https://drive.google.com/open?id=0B3XRUQgTUKEMQlpuZGhWaVc1X3c"
   weight = 6
 
 [[menu.main]]
