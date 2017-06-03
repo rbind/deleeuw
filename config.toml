@@ -76,29 +76,29 @@ pubs_count = 8
   icon = "linkedin"
   icon_pack = "fa"
   link = "https://www.linkedin.com/in/jan-de-leeuw-a18a7a140/"
-  text = "Jan_de_Leeuw"
+  text = "Jan"
   site = "LinkedIn"
 
 [[params.social]]
   icon = "wikipedia-w"
   icon_pack = "fa"
   link = "https://en.wikipedia.org/wiki/Jan_de_Leeuw"
-  text = "Jan_de_Leeuw"
+  text = "Jan"
   site = "Wikipedia"
 
 [[params.social]]
   icon = "google"
   icon_pack = "fa"
   link = "https://scholar.google.com/citations?user=Ccp--gIAAAAJ&hl=en"
-  text = "Jan_de_Leeuw"
+  text = "Jan"
   site = "Google Scholar"
 
 [[params.social]]
   icon = "university"
   icon_pack = "fa"
   link = "https://www.genealogy.math.ndsu.nodak.edu/id.php?id=36682&fChrono=1"
-  text = "Jan_de_Leeuw"
-  site = "Math Genealogy"
+  text = "Jan"
+  site = "Mathematics Genealogy"
 
 [[params.social]]
   icon = "file-audio-o"
