@@ -7,7 +7,9 @@ math = true
 +++
 I use majorization in many of my papers. So a short general introduction may be useful. 
 <!--more-->
+
 #Introduction
+
 The problem we try to solve throughout is to construct a convergent and stable iterative algorithm to minimize a function `$f:X\rightarrow\mathbb{R}$` over a set `$X\subseteq\mathbb{R}^n$`. 
 
 A *majorization scheme* for `$f$` on `$X$` is a function `$g:X\otimes X\rightarrow\mathbb{R}$` such that
