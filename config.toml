@@ -98,7 +98,7 @@ pubs_count = 8
   icon_pack = "fa"
   link = "https://www.genealogy.math.ndsu.nodak.edu/id.php?id=36682&fChrono=1"
   text = "Jan_de_Leeuw"
-  site = "Mathematics Genealogy"
+  site = "Math Genealogy"
 
 [[params.social]]
   icon = "file-audio-o"
