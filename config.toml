@@ -85,6 +85,12 @@ pubs_count = 8
   link = "https://scholar.google.com/citations?user=Ccp--gIAAAAJ&hl=en"
   text = "Google Scholar"
 
+[[params.social]]
+  icon = "fa-file-audio-o"
+  icon_pack = "fa"
+  link = "https://drive.google.com/open?id=0B3XRUQgTUKEMVEpENHNOYzNVZm8"
+  text = "My First Name"
+
 # Navigation Links
 # The weight parameter defines the order that the links will appear in.
 
