@@ -73,6 +73,13 @@ pubs_count = 8
   site = "ResearchGate"
 
 [[params.social]]
+  icon = "=linkedin"
+  icon_pack = "fa"
+  link = "https://www.linkedin.com/in/jan-de-leeuw-a18a7a140/"
+  text = "Jan_De_Leeuw"
+  site = "LinkedIn"
+
+[[params.social]]
   icon = "wikipedia-w"
   icon_pack = "fa"
   link = "https://en.wikipedia.org/wiki/Jan_de_Leeuw"
