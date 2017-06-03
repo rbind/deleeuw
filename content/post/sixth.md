@@ -6,14 +6,12 @@ title = "Majorization"
 math = true
 +++
 I use majorization in many of my papers. So maybe a short general introduction is useful. 
-I use majorization in many of my papers. So maybe a short general introduction is useful. 
-I use majorization in many of my papers. So maybe a short general introduction is useful. 
-I use majorization in many of my papers. So maybe a short general introduction is useful. 
-I use majorization in many of my papers. So maybe a short general introduction is useful. 
+I start with a short introduction to the Zangwill theory of iterative algorithms and
+then rapidly go to majorization algorithms. We also add some material on the Ostrowski
+theory of convergence speed for linearly convergent majorization algorithms.  
 <!--more-->
 
-The problem we try to solve is to construct a convergent and stable iterative algorithm to minimize a function 
-`$f$` over a set `$X$`. 
+The problem we try to solve throughout is to construct a convergent and stable iterative algorithm to minimize a function `$f$` over a set `$X$`. 
 
 An *iterative algorithm* on a set `$X$` is a triple `$\langle\mathcal{A},S,f\rangle$`. Here `$\mathcal{A}:X\rightarrow\mathcal{P}(X)$` is the *update map*, `$S\subseteq X$` are the *targets*, and `$f:X\rightarrow\mathbb{R}$` is the *evaluation*. Note that `$\mathcal{P}(X)$` is the power set 
 of `$X$`, i.e. the set of all subsets.
