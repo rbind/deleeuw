@@ -6,6 +6,8 @@ title = "Majorization"
 math = true
 +++
 
+This is the summary.
+<!--more-->
 <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
