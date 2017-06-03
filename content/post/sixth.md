@@ -52,7 +52,7 @@ Now
 <div>
 $$d_{ij}(X)=\sqrt{\mathbf{tr}\ X'A_{ij}X},$$
 </div>
-
+   
 where `$A_{ij}$` is a symmetric matrix of order `$n$` with elements `$(i,i)$` and `$(j,j)$` equal to +1
 and elements `$(i,j)$` and `$(j,i)$` equal to -1. All other elements are zero.
 
