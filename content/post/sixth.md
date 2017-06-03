@@ -6,10 +6,8 @@ title = "Majorization"
 math = true
 +++
 I use majorization in many of my papers. So maybe a short general introduction is useful. The problem we try to solve is to construct a convergent and stable iterative algorithm to minimize a function `$f$` over a set `$X$`. 
-I use majorization in many of my papers. So maybe a short general introduction is useful. The problem we try to solve is to construct a convergent and stable iterative algorithm to minimize a function `$f$` over a set `$X$`. 
-I use majorization in many of my papers. So maybe a short general introduction is useful. The problem we try to solve is to construct a convergent and stable iterative algorithm to minimize a function `$f$` over a set `$X$`. 
-
-An algorithm is a map `$A$` from `$X$` into `$X$` 
+&zwnj;&zwnj;&zwnj;&zwnj;&zwnj;&zwnj;&zwnj;&zwnj;&zwnj;&zwnj;
+An algorithm &zwnj;&zwnj;&zwnj;&zwnj;is a map `$A$` from `$X$` into `$X$` 
 
 * `$x^{(k+1)}=A(x^{(k)})$`
 * `$f(A(x)) < f(x)$` for all `$x$` in `$X$`
