@@ -4,4 +4,4 @@ draft = false
 tags = []
 title = "Majorization"
 +++
-I use majorization in many of my papers. So maybe a short introduction is useful.
+I use majorization in many of my papers. So maybe a short general introduction is useful. The problem we try to solve is to minimize a function *f* over a set *X*.
