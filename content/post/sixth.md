@@ -22,6 +22,10 @@ A majorization scheme generates an iterative majorization algorithm by the
   $$x^{(k+1)}\in\mathop{\text{argmin}}_{x\in X}g(x,x^{(k)}).$$
 </div>
 
+The key result in majorization theory is the *sandwich inequality*
+<div>
+$$f(x^{(k+1)})\leq g(x^{(k+1)},x^{(k)})\leq g(x^{(k)},x^{(k)})=f(x^{(k)}).$$
+</div>
 
 <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
