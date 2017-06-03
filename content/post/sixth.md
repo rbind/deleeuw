@@ -10,7 +10,7 @@ I use majorization in many of my papers. So maybe a short general introduction i
 I use majorization in many of my papers. So maybe a short general introduction is useful. 
 I use majorization in many of my papers. So maybe a short general introduction is useful. 
 I use majorization in many of my papers. So maybe a short general introduction is useful. 
-
+<!--more-->
 The problem we try to solve is to construct a convergent and stable iterative algorithm to minimize a function 
 `$f$` over a set `$X$`. 
 
