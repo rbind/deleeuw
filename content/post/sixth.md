@@ -17,7 +17,8 @@ A *majorization scheme* for `$f$` on `$X$` is a function `$g:X\otimes X\rightarr
 
 In other words `$f(x)=\min_{y\in X}g(x,y)$` and `$x\in\mathop{\text{argmin}}_{y\in X}g(x,y)$`.
 
-A majorization scheme generates an iterative majorization algorithm by the 
+A majorization scheme generates an *iterative majorization algorithm* by the rule
+
 <div>
   $$x^{(k+1)}\in\mathop{\text{argmin}}_{x\in X}g(x,x^{(k)}).$$
 </div>
