@@ -69,14 +69,14 @@ pubs_count = 8
   icon = "researchgate"
   icon_pack = "ai"
   link = "https://www.researchgate.net/profile/Jan_De_Leeuw"
-  text = "Jan_De_Leeuw"
+  text = "Jan_de_Leeuw"
   site = "ResearchGate"
 
 [[params.social]]
   icon = "linkedin"
   icon_pack = "fa"
   link = "https://www.linkedin.com/in/jan-de-leeuw-a18a7a140/"
-  text = "Jan_De_Leeuw"
+  text = "Jan_de_Leeuw"
   site = "LinkedIn"
 
 [[params.social]]
@@ -90,13 +90,15 @@ pubs_count = 8
   icon = "google"
   icon_pack = "fa"
   link = "https://scholar.google.com/citations?user=Ccp--gIAAAAJ&hl=en"
-  text = "Google Scholar"
+  text = "Jan_de_Leeuw"
+  site = "Google Scholar"
 
 [[params.social]]
   icon = "university"
   icon_pack = "fa"
   link = "https://www.genealogy.math.ndsu.nodak.edu/id.php?id=36682&fChrono=1"
-  text = "Mathematics Genealogy"
+  text = "Jan_de_Leeuw"
+  site = "Mathematics Genealogy"
 
 [[params.social]]
   icon = "file-audio-o"
