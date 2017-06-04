@@ -60,13 +60,13 @@ The AM-GM inequality says
 and thus `$f(x)\leq g(x,y)$` with a majorization scheme
 
 <div>
-  $$g(x,y)=\sum_{i=1}^n w_i\frac{1}{h_i(y)}\{h_i(x)+h_i(y)\}.$$
+  $$g(x,y)=\sum_{i=1}^n\frac{w_i}{h_i(y)}\{h_i(x)+h_i(y)\},$$
 </div>
 
-that is quadratic in `$x$`, and thus easy to minimize. The majorization algorithm is
+which is quadratic in `$x$`, and thus easy to minimize. The majorization algorithm is
 
 <div>
-$$x^{(k+1)}=\left\{\sum_{i=1}^n w_i\frac{1}{h_i(x^{(k)})}A_i\}^{-1}\sum_{i=1}^n w_i\frac{1}{h_i(x^{(k)})}b_i.$$
+$$x^{(k+1)}=\left\{\sum_{i=1}^n w_i\frac{1}{h_i(x^{(k)})}A_i\right\}^{-1}\sum_{i=1}^n w_i\frac{1}{h_i(x^{(k)})}b_i.$$
 </div>  
 
 <h3>2.2 Convexity</h3>
