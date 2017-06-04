@@ -114,10 +114,24 @@ with
 The majorization algorithm is
 
 <div>
-  x^{(k+1)}=V^+B(x^{(k)})x^{(k)}.
+  $$x^{(k+1)}=V^+B(x^{(k)})x^{(k)}.$$
 </div>
 
 <h4>2.1.3 Jensen</h4>
+
+Suppose `$-\infty=a_0<a_1<\cdots<a_n<a_{n+1}=+\infty$` are numbers that partition the real line into `$(n+1)$` intervals. Suppose that a discrete random variable takes the values `$1,\cdots,n+1$` with probabilities
+
+<div>
+  \pi_j(\mu,\sigma)=\frac{1}{\sigma\sqrt{2\pi}}\int_{a_{j-1}}^{a_j}\exp\left\{-\frac12\left(\frac(x-\mu){\sigma}\right)^2\right\}.
+</div>
+
+From a random sample of size `$n$` we have observed proportions `$p_j$`, which gives a log-likelihood
+
+<div>
+f(\mu,\sigma)=\sum_{j=1}^{n+1}p_j\log\pi_j(\mu,\sigma).
+</div>
+
+
 
 <h3>2.2 Convexity</h3>
 
