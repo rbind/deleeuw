@@ -36,12 +36,16 @@ The assumptions for convergence can be relaxed a great deal, but we will not go 
 
 <h2>2 Tools of the Trade</h2>
 
+In this section we will try to give some idea of the tools that are available to construct majorization schemes and the corresponding majorization algorithms.
+
 <h3>2.1 Inequalities</h3>
 
 Any inequality of the form `$h(x,y)\geq f(x)+f(y)$`, with equality if and only if 
 `$x=y$` leads to a strict majorization scheme with `$g(x,y)=h(x,y)-f(y)$`. This
 also covers inequalities of the form `$h(x,y)\leq f(x)+f(y)$` by multiplying
 by -1 and inequalities of the form `$h(x,y)\geq f(x)f(y)$` by taking logarithms.
+
+<h4>2.1.1 AM/GM</h4>
 
 Consider, for example, minimization of 
 
@@ -69,6 +73,34 @@ which is quadratic in `$x$`, and thus easy to minimize. The majorization algorit
 $$x^{(k+1)}=\left\{\sum_{i=1}^n \frac{w_i}{h_i(x^{(k)})}A_i\right\}^{-1}\sum_{i=1}^n w_i\frac{w_i}{h_i(x^{(k)})}b_i.$$
 </div>  
 
+<h4>2.1.2 Cauchy-Schwartz</h4>
+
+In multidimensional scaling, or MDS, we minimize a function of the form
+
+<div>
+$$\sigma(x)=\sum_{i=1}^n w_i(\delta_i-\sqrt{x'A_ix})^2,$$
+</div>
+
+where again the $A_i$ are positive semi-definite. Suppose without loss of generalitythe `$\delta_i$` have weighted sum of squares equal to 1. Then
+
+<div>
+$$\sigma(x)=1+x'Vx-2\sum_{i=1}^n w_i\delta_i\sqrt{x'A_ix},$$
+</div>
+
+with
+<div>
+  $$V=\sum_{i=1}^n w_iA_i.$$
+</div>
+
+The CS inequality gives
+<div>
+$$\sqrt{x'A_ix}\sqrt{y'A_iy}\leq x'A_iy$$
+</div>
+   
+
+
+<h4>2.1.3 Jensen</h4>
+
 <h3>2.2 Convexity</h3>
 
 <h3>2.3 Taylor's Theorem</h3>
@@ -76,26 +108,6 @@ $$x^{(k+1)}=\left\{\sum_{i=1}^n \frac{w_i}{h_i(x^{(k)})}A_i\right\}^{-1}\sum_{i=
 <h2>Example: The Weber Point</h2>
 
 <h2>Example: Multidimensional Scaling</h2>
-
-First we give an example in which a simple inequality is used to derive a majorization scheme. In
-multidimensional scaling, or MDS, we minimize
-
-<div>
-$$\sigma(X)=\sum_{i=1}^n\sum_{j=1}^n w_{ij}(\delta_{ij}-d_{ij}(X))^2,$$
-</div>
-
-over all `$n\times p$` *configuration* matrices $X$. Here `$W=\{w_{ij}\}$` and `$\Delta=\{\delta_{ij}\}$`
-are given symmetric and non-negative matries, with zeroes on the diagonal, and `$D(X)=\{d_{ij}(X)\}$`
-is the matrix-valued function of Euclidean distances between the `$n$` points in `$\mathbb{R}^p$` with coordinates in the rows of `$X$`.
-
-Now
-
-<div>
-$$d_{ij}(X)=\sqrt{\mathbf{tr}\ X'A_{ij}X},$$
-</div>
-   
-where `$A_{ij}$` is a symmetric matrix of order `$n$` with elements `$(i,i)$` and `$(j,j)$` equal to +1
-and elements `$(i,j)$` and `$(j,i)$` equal to -1. All other elements are zero.
 
 <h2>Example: EM</h2>
 
