@@ -78,26 +78,44 @@ $$x^{(k+1)}=\left\{\sum_{i=1}^n \frac{w_i}{h_i(x^{(k)})}A_i\right\}^{-1}\sum_{i=
 In multidimensional scaling, or MDS, we minimize a function of the form
 
 <div>
-$$\sigma(x)=\sum_{i=1}^n w_i(\delta_i-\sqrt{x'A_ix})^2,$$
+$$f(x)=\sum_{i=1}^n w_i(\delta_i-\sqrt{x'A_ix})^2,$$
 </div>
 
 where again the $A_i$ are positive semi-definite. Suppose without loss of generalitythe `$\delta_i$` have weighted sum of squares equal to 1. Then
 
 <div>
-$$\sigma(x)=1+x'Vx-2\sum_{i=1}^n w_i\delta_i\sqrt{x'A_ix},$$
+$$f(x)=1+x'Vx-2\sum_{i=1}^n w_i\delta_i\sqrt{x'A_ix},$$
 </div>
 
 with
+
 <div>
   $$V=\sum_{i=1}^n w_iA_i.$$
 </div>
 
-The CS inequality gives
+The Cauchy-Schwartz inequality gives
+
 <div>
 $$\sqrt{x'A_ix}\sqrt{y'A_iy}\leq x'A_iy$$
 </div>
-   
 
+and thus we have a majorization scheme defined by
+
+<div>
+  $$g(x,y)=1+x'Vx-2x'B(y)y,$$
+</div>
+   
+with
+
+<div>
+  $$B(y)=\sum_{i=1}^n \frac{w_i}{\sqrt{y'A_iy}}A_i.$$
+</div>
+
+The majorization algorithm is
+
+<div>
+  x^{(k+1)}=V^+B(x^{(k)})x^{(k)}.
+</div>
 
 <h4>2.1.3 Jensen</h4>
 
