@@ -128,7 +128,7 @@ Suppose `$-\infty=a_0<a_1<\cdots<a_n<a_{n+1}=+\infty$` are numbers that partitio
 with
 
 <div>
-  $$\phi(x,\mu,\sigma)=\frac{1}{\sigma\sqrt{2\pi}}\exp\left\{-\frac12\left(\frac(x-\mu){\sigma}\right)^2\right\}.$$
+  $$\phi(x,\mu,\sigma)=\frac{1}{\sigma\sqrt{2\pi}}\exp\left\{-\frac12\left(\frac{x-\mu}{\sigma}\right)^2\right\}.$$
 </div>
 
 From a random sample of size `$n$` we have observed proportions `$p_j$`, which gives a log-likelihood
