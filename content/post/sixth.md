@@ -52,14 +52,19 @@ Consider, for example, minimization of
 where the `$h_i(x)=x'A_ix-2x'b_i+c_i$` and we assume the quadratics `$h_i(x)$` are positive for all `$x$`. This has as a special case the Weber problem of locating a point `$x$` at minimum weighted distance fom a number of given points `$z_i$`. In statistics it is also known as computing the multivariate median.
 
 The AM-GM inequality says
+
 <div>
   $$\sqrt{h_i(x)}\sqrt{h_i(y)}\leq\frac12\{h_i(x)+h_i(y)\},$$
 </div>
+
 and thus `$f(x)\leq g(x,y)$` with a majorization scheme
+
 <div>
   $$g(x,y)=\sum_{i=1}^n w_i\frac{1}{h_i(y)}\{h_i(x)+h_i(y)\}.$$
 </div>
+
 that is quadratic in `$x$`, and thus easy to minimize. The majorization algorithm is
+
 <div>
 $$x^{(k+1)}=\left\{\sum_{i=1}^n w_i\frac{1}{h_i(x^{(k)})}A_i\}^{-1}\sum_{i=1}^n w_i\frac{1}{h_i(x^{(k)})}b_i.$$
 </div>  
