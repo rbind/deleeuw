@@ -140,8 +140,8 @@ $$f(\mu,\sigma)=\sum_{j=1}^{n+1}p_j\log\pi_j(\mu,\sigma).$$
 We will now use Jensen's inequality in the form
 
 <div>
-$$\log\frac{\int\widehat\phi\frac{\phi}{\widehat\phi}dx}{\int\widehat\phi dx}\geq
-\frac{\int\widehat\phi\log\frac{\phi}{\widehat\phi}dx}{\int\widehat\phi dx}$$
+$$\log\frac{\int\phi(x,\widehat\mu,\widehat\sigma)\frac{\phi(x,\mu,\sigma)}{\phi(x,\widehat\mu,\widehat\sigma)}dx}{\int\phi(x,\widehat\mu,\widehat\sigma) dx}\geq
+\frac{\int\phi(x,\widehat\mu,\widehat\sigma)\log\frac{\phi(x,\mu,\sigma)}{\phi(x,\widehat\mu,\widehat\sigma)}dx}{\int\phi(x,\widehat\mu,\widehat\sigma)dx}$$
 </div>
 
 <h3>2.2 Convexity</h3>
