@@ -38,6 +38,11 @@ The assumptions for convergence can be relaxed a great deal, but we will not go 
 
 <h3>2.1 Inequalities</h3>
 
+Any inequality of the form `$h(x,y)\geq f(x)+f(y)$`, with equality if and only if 
+`$x=y$` leads to a strict majorization scheme with `$g(x,y)=h(x,y)-f(y)$`. This
+also covers inequalities of the form `$h(x,y)\leq f(x)+f(y)$` by multiplying
+by -1 and inequalities of the form `$h(x,y)\geq f(x)f(y)$` by taking logarithms.
+
 <h3>2.2 Convexity</h3>
 
 <h3>2.3 Taylor's Theorem</h3>
