@@ -147,7 +147,7 @@ $$\log\frac{\int\phi(x,\widehat\mu,\widehat\sigma)\frac{\phi(x,\mu,\sigma)}{\phi
 which gives
 
 <div>
-$$f(\mu,\sigma)\geqf(\widehat\mu,\widehat\sigma)+\sum_{j=1}^{n+1}\frac{p_j}{\pi_j(\widehat\mu,\widehat\sigma)}
+$$f(\mu,\sigma)\geq f(\widehat\mu,\widehat\sigma)+\sum_{j=1}^{n+1}\frac{p_j}{\pi_j(\widehat\mu,\widehat\sigma)}
 \left\{\int_{a_{j-1}}^{a_j}\phi(x,\widehat\mu,\widehat\sigma)\log\phi(x,\mu,\sigma)dx-\int_{a_{j-1}}^{a_j}\phi(x,\widehat\mu,\widehat\sigma)\log\phi(x,\widehat\mu,\widehat\sigma)dx\right\}$$
 </div>
 
