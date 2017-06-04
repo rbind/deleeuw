@@ -144,6 +144,13 @@ $$\log\frac{\int\phi(x,\widehat\mu,\widehat\sigma)\frac{\phi(x,\mu,\sigma)}{\phi
 \frac{\int\phi(x,\widehat\mu,\widehat\sigma)\log\frac{\phi(x,\mu,\sigma)}{\phi(x,\widehat\mu,\widehat\sigma)}dx}{\int\phi(x,\widehat\mu,\widehat\sigma)dx}$$
 </div>
 
+which gives
+
+<div>
+$$f(\mu,\sigma)\geqf(\widehat\mu,\widehat\sigma)+\sum_{j=1}^{n+1}\frac{p_j}{\pi_j(\widehat\mu,\widehat\sigma)}
+\left\{\int_{a_{j-1}}^{a_j}\phi(x,\widehat\mu,\widehat\sigma)\log\phi(x,\mu,\sigma)dx-\int_{a_{j-1}}^{a_j}\phi(x,\widehat\mu,\widehat\sigma)\log\phi(x,\widehat\mu,\widehat\sigma)dx\right\}$$
+</div>
+
 <h3>2.2 Convexity</h3>
 
 <h3>2.3 Taylor's Theorem</h3>
