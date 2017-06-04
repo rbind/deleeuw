@@ -8,7 +8,7 @@ math = true
 I use majorization in many of my papers. So a short general introduction with some simple examples may be useful. Here we go.
 <!--more-->
 
-<h2>Introduction</h2>
+<h2>1 Introduction</h2>
 
 The problem we try to solve throughout is to construct a convergent and stable iterative algorithm to minimize a function `$f:X\rightarrow\mathbb{R}$` over `$X\subseteq\mathbb{R}^n$`. 
 
@@ -34,6 +34,16 @@ If the function `$f$` is bounded below, the iterates stay in a compact set, the 
 `$x_\infty\in X$`, i.e. a point with `$x_\infty=\mathop{\text{argmin}}_{x\in X}g(x,x_\infty)$`.
 The assumptions for convergence can be relaxed a great deal, but we will not go into such details.
 
+<h2>2 Tools of the Trade</h2>
+
+<h3>2.1 Inequalities</h3>
+
+<h3>2.2 Convexity</h3>
+
+<h3>2.3 Taylor's Theorem</h3>
+
+<h2>Example: The Weber Point</h2>
+
 <h2>Example: Multidimensional Scaling</h2>
 
 First we give an example in which a simple inequality is used to derive a majorization scheme. In
@@ -55,8 +65,6 @@ $$d_{ij}(X)=\sqrt{\mathbf{tr}\ X'A_{ij}X},$$
    
 where `$A_{ij}$` is a symmetric matrix of order `$n$` with elements `$(i,i)$` and `$(j,j)$` equal to +1
 and elements `$(i,j)$` and `$(j,i)$` equal to -1. All other elements are zero.
-
-<h2>Example: The Weber Point</h2>
 
 <h2>Example: EM</h2>
 
