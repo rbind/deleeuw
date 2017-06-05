@@ -43,7 +43,8 @@ In this section we will try to give some idea of the tools that are available to
 Any inequality of the form `$h(x,y)\geq f(x)+f(y)$`, with equality if and only if 
 `$x=y$` leads to a strict majorization scheme with `$g(x,y)=h(x,y)-f(y)$`. This
 also covers inequalities of the form `$h(x,y)\leq f(x)+f(y)$` by multiplying
-by -1 and inequalities of the form `$h(x,y)\geq f(x)f(y)$` by taking logarithms.
+by -1 and inequalities of the form `$h(x,y)\geq f(x)f(y)$` (with positive functions) 
+by taking logarithms.
 
 <h4>2.1.1 AM/GM</h4>
 
@@ -169,7 +170,7 @@ $$\mu^{(k+1)}=\sum_{j=1}^{m+1}p_jE_j^{(k)},$$
 and
 
 <div>
-$$(\sigma^2)^{(k+1)}=\sum_{j=1}^{m+1}p_j\left(V_j^{(k)}+(E_j^{(k)}\mu^{(k+1)})^2\right).$$
+$$(\sigma^2)^{(k+1)}=\sum_{j=1}^{m+1}p_j\left(V_j^{(k)}+(E_j^{(k)}-\mu^{(k+1)})^2\right).$$
 </div>
 
 In this case the majorization algorithm gives the same results as the EM algorithm, which is not surprising because EM algorithms are majorization algorithms based on Jensen's inequality.
