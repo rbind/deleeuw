@@ -292,15 +292,32 @@ for some `$z$` on the line connecting `$x$` and `$y$`. Thus
   $$f(x)\leq f(y)+(x-y)'Df(y)+\frac12 \max_{0\leq\lambda\leq 1}(x-y)'D^2f(\lambda x +(1-\lambda)y)(x-y)$$
 </div>
 
-gives a majorization scheme, but the scheme may not be a simple function. If, however, `$\mathcal{D}^2f(x)\lessim A$` for all
+gives a majorization scheme, but the scheme may not be a simple function. If, however, `$\mathcal{D}^2f(x)\lesssim A$` for all
 `$x$` then the majorization scheme is the quadratic
 
 <div>
   $$f(x)\leq f(y)+(x-y)'Df(y)+\frac12(x-y)'A(x-y),$$
 </div>
 
-and the majorization algorithm projects `$x^{(k)}-A^{-1}\mathcal{D}f(x^{(k)})$` on `$X$` to find `$x^{(k+1)}$`.
+and the majorization algorithm metrically projects `$x^{(k)}-A^{-1}\mathcal{D}f(x^{(k)})$` on `$X$` to find `$x^{(k+1)}$`.
 
+A simple example is logistic regression. The negative log-likelihood is
+
+<div>
+  $$f(x)=-\sum_{i=1}^n n_i\{p_i\log\pi_i(x)+(1-p_i)\log(1-\pi_i(x))\},$$
+</div>
+
+with
+
+<div>
+  $$\pi_i(x)=\frac{1}{1+\exp\{-z_i'x\}}.$$
+</div>
+
+This simplifies to
+
+<div>
+  $$f(x)=\sum_{i=1}^n\{p_iz_i'x-\log(1-\pi_i(x))\},$$
+</div>
 
 <h4>2.3.2 Higher Order</h4>
 
