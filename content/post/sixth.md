@@ -5,12 +5,14 @@ tags = []
 title = "Majorization"
 math = true
 +++
-I use majorization in many of my papers. So a short general introduction with some simple examples may be useful. Here we go.
+I use majorization in many of my papers. So a relatively short general introduction with some examples may be useful. Here we go.
+Keep reading.
 <!--more-->
 
 <h2>1 Introduction</h2>
 
-The problem we try to solve throughout is to construct a convergent and stable iterative algorithm to minimize a function `$f:X\rightarrow\mathbb{R}$` over `$X\subseteq\mathbb{R}^n$`. 
+The problem we try to solve throughout is to construct a convergent and stable iterative algorithm to minimize a function 
+`$f:X\rightarrow\mathbb{R}$` over `$X\subseteq\mathbb{R}^n$`. 
 
 <h3>1.1 Majorization</h3>
 
@@ -219,7 +221,8 @@ and if `$g$` is defined as
 <div>
 $$g(x,y)=\sum_{i=1}^n\left(\frac{w_iy_i}{w'y}\right)h\left(\frac{w'y}{y_i}x_i\right)$$
 </div>
-then, by the defintion of convexity, `$f(x)\leq g(x,y)$`. Also, clearly, `$f(x)=g(x,x)$` and thus we have a majorization scheme on `$(\mathbb{R}^+)^n$`.
+then, by the defintion of convexity, `$f(x)\leq g(x,y)$`. Also, clearly, `$f(x)=g(x,x)$` and thus we have a majorization scheme on 
+`$(\mathbb{R}^+)^n$`.
 
 Alternatively, for any positive vector `$\pi$` with elements adding up to one, 
 <div>
