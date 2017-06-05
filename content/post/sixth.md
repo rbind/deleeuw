@@ -35,8 +35,11 @@ $$f(x^{(k+1)})\leq g(x^{(k+1)},x^{(k)})\leq g(x^{(k)},x^{(k)})=f(x^{(k)}).$$
 </div>
 
 If the function `$f$` is bounded below, the iterates stay in a compact set, the majorization scheme is continuous, and all minima are attained at unique points, then we have convergence to a *fixed point* 
-`$x_\infty\in X$`, i.e. a point with `$x_\infty=\mathop{\text{argmin}}_{x\in X}g(x,x_\infty)$`.
-The assumptions for convergence can be relaxed a great deal, but we will not specify these in detail.
+`$x_\infty\in X$`, i.e. a point with `$x_\infty=\mathop{\text{argmin}}_{x\in X}g(x,x_\infty)$`. More precisely, the sequence
+`$f(x^{(k)})$` converges, each accumulation point of the sequence `$x^{(k)}$` we generate is a fixed point, and all accumulation points have the same function value. The assumptions for convergence can be relaxed a great deal, but we will not specify these in detail.
+
+Finally, not that we use majorization for minimization. In the same way we can use minorization for maximization. This is the reason
+majorization algorithms are often called MM algorithms these days.
 
 <h3>1.2 Differentiable Functions</h3>
 
@@ -204,6 +207,22 @@ Instead of specific inequalities we can also base majorization schemes on more g
 for any `$z\in\partial f(y)$`, the subgradient at `$y$`.
 
 <h4>2.2.1 Aspects</h4>
+
+Suppose `$\mathcal{K}_j$`, for `$j=1,\cdots,m$`, are convex cones in `$\mathbb{R}^n$`. Cone `$\mathcal{K}_j$` defines the possible transformations of `$n$` observations on variable `$j$`. Also `$\mathcal{S}$` is the unit sphere in `$\mathbb{R}^n$`.
+
+Given `$x_j\in\mathcal{K}_j\cap\mathcal{S}$` we can compute the correlation matrix `$R(x)=\{r_{ij}(x)\}=\{x_i'x_j\}$`. Now suppose
+<div>
+$$f(x)=h(R(x))$$
+</div>
+where `$h$` is a concave real-valued function on the space of correlation matrices. Multivariate analysis abounds with such functions
+such as the sum of the $p$ smallest eigenvalues, the determinant, one minus the squared multiple correlation of one variable with the others, and the minimum of the negative multinormal log-likelihood.
+
+By concavity
+<div>
+$$f(x)\leq\f(y)+\mathbf{tr}\ G(y)(R(x)-R(y)),$$
+</div>
+with `$G(y)\in\partial h(y)$.` Thus we have a majorization scheme and the majorization algorithm
+
 
 <h4>2.2.2 Tomography</h4>
 
