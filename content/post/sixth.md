@@ -169,7 +169,7 @@ $$\mu^{(k+1)}=\sum_{j=1}^{m+1}p_jE_j^{(k)},$$
 and
 
 <div>
-$$(\sigma^2)^{(k+1)}=\sum_{j=1}^{m+1}p_j\left(V_j^{(k)}+(E_j^{(k)}\mu^{(k+1)})^2\right).
+$$(\sigma^2)^{(k+1)}=\sum_{j=1}^{m+1}p_j\left(V_j^{(k)}+(E_j^{(k)}\mu^{(k+1)})^2\right).$$
 </div>
 
 In this case the majorization algorithm gives the same results as the EM algorithm, which is not surprising because EM algorithms are majorization algorithms based on Jensen's inequality.
