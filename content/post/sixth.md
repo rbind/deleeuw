@@ -208,27 +208,36 @@ for any `$z\in\partial f(y)$`, the subgradient at `$y$`.
 <h4>2.2.2 Tomography</h4>
 
 Suppose the function `$f$` we must minimize is defined by 
+
 <div>
 $$f(x)=h\left(\sum_{i=1}^n w_ix_i\right),$$
 </div>
+
 where `$h$` is a convex function of a single variable, and `$w$` is a vector of positive numbers.
 
 If `$y$` is another vector of `$n$` positive numbers we can write 
+
 <div>
 $$f(x)=h\left(\sum_{i=1}^n \left(\frac{w_iy_i}{w'y}\right)\left(\frac{w'y}{y_i}x_i\right)\right),$$
 </div>
+
 and if `$g$` is defined as 
+
 <div>
 $$g(x,y)=\sum_{i=1}^n\left(\frac{w_iy_i}{w'y}\right)h\left(\frac{w'y}{y_i}x_i\right)$$
 </div>
+
 then, by the defintion of convexity, `$f(x)\leq g(x,y)$`. Also, clearly, `$f(x)=g(x,x)$` and thus we have a majorization scheme on 
-`$(\mathbb{R}^+)^n$`.
+`$(\mathbb{R}^n)^n$`.
 
 Alternatively, for any positive vector `$\pi$` with elements adding up to one, 
+
 <div>
 $$f(x)=h\left(\sum_{i=1}^n\pi_i\left(\frac{w_i}{\pi_i}(x_i-y_i)-w'y\right)\right),$$
 </div>
+
 and the majorization is `$g$` defined by
+
 <div>
 $$g(x,y)=\sum_{i=1}^n\pi_ih\left(\frac{w_i}{\pi_i}(x_i-y_i)-w'y\right).$$
 </div>
