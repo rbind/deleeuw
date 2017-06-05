@@ -119,7 +119,7 @@ The majorization algorithm is
 
 <h4>2.1.3 Jensen</h4>
 
-Suppose `$-\infty=a_0<a_1<\cdots<a_n<a_{n+1}=+\infty$` are numbers that partition the real line into `$(n+1)$` intervals. Suppose that a discrete random variable takes the values `$1,\cdots,n+1$` with probabilities
+Suppose `$-\infty=a_0<a_1<\cdots<a_n<a_{m+1}=+\infty$` are numbers that partition the real line into `$(m+1)$` intervals. Suppose that a discrete random variable takes the values `$1,\cdots,m+1$` with probabilities
 
 <div>
   $$\pi_j(\mu,\sigma)=\int_{a_{j-1}}^{a_j}\phi(x,\mu,\sigma)dx,$$
@@ -134,7 +134,7 @@ with
 From a random sample of size `$n$` we have observed proportions `$p_j$`, which gives a log-likelihood
 
 <div>
-$$f(\mu,\sigma)=\sum_{j=1}^{n+1}p_j\log\pi_j(\mu,\sigma).$$
+$$f(\mu,\sigma)=\sum_{j=1}^{m+1}p_j\log\pi_j(\mu,\sigma).$$
 </div>
 
 We will now use Jensen's inequality in the form
@@ -148,11 +148,31 @@ which gives
 
 <div>
 \begin{multline*}
-f(\mu,\sigma)\geq f(\widehat\mu,\widehat\sigma)+\\\sum_{j=1}^{n+1}\frac{p_j}{\pi_j(\widehat\mu,\widehat\sigma)}
-\left\{\int_{a_{j-1}}^{a_j}\phi(x,\widehat\mu,\widehat\sigma)\log\phi(x,\mu,\sigma)dx-\int_{a_{j-1}}^{a_j}\phi(x,\widehat\mu,\widehat\sigma)\log\phi(x,\widehat\mu,\widehat\sigma)dx\right\}
+f(\mu,\sigma)\geq f(\widehat\mu,\widehat\sigma)+\\\sum_{j=1}^{m+1}\frac{p_j}{\pi_j(\widehat\mu,\widehat\sigma)}
+\left\{\int_{a_{j-1}}^{a_j}\phi(x,\widehat\mu,\widehat\sigma)\log\phi(x,\mu,\sigma)dx-\int_{a_{j-1}}^{a_j}\phi(x,\widehat\mu,\widehat\sigma)\log\phi(x,\widehat\mu,\widehat\sigma)dx\right\}.
 \end{multline*}
 </div>
 
+It follows that instep $k$ of the majorization algorithm we minimize 
+
+<div>
+  $$\log\sigma^2+\frac{1}{\sigma^2}\sum_{j=1}^{m+1} p_j(V_j^{(k)}+(E_j^{(k)}-\mu)^2),$$
+</div>
+
+where `$E_j^{(k)}$` and `$V_j^{(k)}$` are the mean and variance of the truncated normal on `$(a_{j-1},a_j)$` with parameters 
+$\mu^{(k)}$ and $\sigma^{(k)}$. The minimizers are
+
+<div>
+$$\mu^{(k+1)}=\sum_{j=1}^{m+1}p_jE_j^{(k)},$$
+</div>
+
+and
+
+<div>
+$$(\sigma^2)^{(k+1)}=\sum_{j=1}^{m+1}p_j\left(V_j^{(k)}+(E_j^{(k)}\mu^{(k+1)})^2\right).
+</div>
+
+In this case the majorization algorithm gives the same results as the EM algorithm, which is not surprising because EM algorithms are majorization algorithms based on Jensen's inequality.
 <h3>2.2 Convexity</h3>
 
 <h3>2.3 Taylor's Theorem</h3>
