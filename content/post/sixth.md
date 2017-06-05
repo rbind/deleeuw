@@ -198,13 +198,14 @@ In this case the majorization algorithm gives the same results as the EM algorit
 
 <h3>2.2 Convexity</h3>
 
-Instead of specific inequalities we can also base majorization schemes on more general tools, such a properties of convex or concave functions. If $f$ is concave, for example,
+Instead of specific inequalities we can also base majorization schemes on more general tools, such as properties of convex or concave functions. If $f$ is concave, for example,
 
 <div>
   $$f(x)\leq f(y)+(x-y)'z,$$
 </div>
 
-for any `$z\in\partial f(y)$`, the subgradient at `$y$`.
+for any `$z\in\partial f(y)$`, the subgradient at `$y$`. This is known as *tangential minorization*, because a concave function
+is below any of its tangents, in the same way as a convex function is above its tangents.
 
 <h4>2.2.1 Aspects</h4>
 
@@ -271,7 +272,35 @@ $$g(x,y)=\sum_{i=1}^n\pi_ih\left(\frac{w_i}{\pi_i}(x_i-y_i)-w'y\right).$$
 
 <h3>2.3 Taylor's Theorem</h3>
 
+Another, even more general tool, is the Taylor series of a sufficiently many times differentiable function.
+
+<div>
+  $$f(x)=f(y)+(x-y)'Df(y)+\frac12 (x-y)'D^2f(y)(x-y)+\cdots$$
+</div>
+
 <h4>2.3.2 Second Order</h4>
+
+If we use the Langrange form of the remainder we can write
+
+<div>
+  $$f(x)=f(y)+(x-y)'Df(y)+\frac12 (x-y)'D^2f(z)(x-y)$$
+</div>
+
+for some `$z$` on the line connecting `$x$` and `$y$`. Thus
+
+<div>
+  $$f(x)\leq f(y)+(x-y)'Df(y)+\frac12 \max_{0\leq\lambda\leq 1}(x-y)'D^2f(\lambda x +(1-\lambda)y)(x-y)$$
+</div>
+
+gives a majorization scheme, but the scheme may not be a simple function. If, however, `$\mathcal{D}^2f(x)\lessim A$` for all
+`$x$` then the majorization scheme is the quadratic
+
+<div>
+  $$f(x)\leq f(y)+(x-y)'Df(y)+\frac12(x-y)'A(x-y),$$
+</div>
+
+and the majorization algorithm projects `$x^{(k)}-A^{-1}\mathcal{D}f(x^{(k)})$` on `$X$` to find `$x^{(k+1)}$`.
+
 
 <h4>2.3.2 Higher Order</h4>
 
