@@ -207,7 +207,7 @@ for any `$z\in\partial f(y)$`, the subgradient at `$y$`.
 
 <h4>2.2.2 Tomography</h4>
 
-Suppose the function `$f$` we must minimize is defined by 
+We can use the definition of convexity directly to majorize `$f$` by a separable majorization scheme, a weighted sum of functions of one variable. Suppose the function `$f$` we must minimize is defined by 
 
 <div>
 $$f(x)=h\left(\sum_{i=1}^n w_ix_i\right),$$
@@ -227,7 +227,7 @@ and if `$g$` is defined as
 $$g(x,y)=\sum_{i=1}^n\left(\frac{w_iy_i}{w'y}\right)h\left(\frac{w'y}{y_i}x_i\right)$$
 </div>
 
-then, by the defintion of convexity, `$f(x)\leq g(x,y)$`. Also, clearly, `$f(x)=g(x,x)$` and thus we have a majorization scheme on 
+then, by the definition of convexity, `$f(x)\leq g(x,y)$`. Also, clearly, `$f(x)=g(x,x)$` and thus we have a majorization scheme on 
 `$(\mathbb{R}^n)^n$`.
 
 Alternatively, for any positive vector `$\pi$` with elements adding up to one, 
