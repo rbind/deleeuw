@@ -228,7 +228,7 @@ $$g(x,y)=\sum_{i=1}^n\left(\frac{w_iy_i}{w'y}\right)h\left(\frac{w'y}{y_i}x_i\ri
 </div>
 
 then, by the definition of convexity, `$f(x)\leq g(x,y)$`. Also, clearly, `$f(x)=g(x,x)$` and thus we have a majorization scheme on 
-`$(\mathbb{R}^n)^n$`.
+`$(\mathbb{R}^+)^n$`.
 
 Alternatively, for any positive vector `$\pi$` with elements adding up to one, 
 
