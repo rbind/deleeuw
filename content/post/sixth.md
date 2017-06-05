@@ -12,6 +12,8 @@ I use majorization in many of my papers. So a short general introduction with so
 
 The problem we try to solve throughout is to construct a convergent and stable iterative algorithm to minimize a function `$f:X\rightarrow\mathbb{R}$` over `$X\subseteq\mathbb{R}^n$`. 
 
+<h3>1.1 Majorization</h3>
+
 A *majorization scheme* for `$f$` on `$X$` is a function `$g:X\otimes X\rightarrow\mathbb{R}$` such that
 
 * `$g(x,y)\geq f(x)$` for all `$x,y\in X$`.
@@ -32,7 +34,21 @@ $$f(x^{(k+1)})\leq g(x^{(k+1)},x^{(k)})\leq g(x^{(k)},x^{(k)})=f(x^{(k)}).$$
 
 If the function `$f$` is bounded below, the iterates stay in a compact set, the majorization scheme is continuous, and all minima are attained at unique points, then we have convergence to a *fixed point* 
 `$x_\infty\in X$`, i.e. a point with `$x_\infty=\mathop{\text{argmin}}_{x\in X}g(x,x_\infty)$`.
-The assumptions for convergence can be relaxed a great deal, but we will not go into such details.
+The assumptions for convergence can be relaxed a great deal, but we will not specify these in detail.
+
+<h3>1.2 Differentiable Functions</h3>
+
+Suppose `$X$` is the whole of `$\mathbb{R}^n$`, and `$f$` and `$g$` are differentiable at a fixed point `$x$`. Then `$\mathcal{D}_1g(x,x)=\mathcal{D}f(x)$` and if `$f$` and `$g$` are twice differentiable `$\mathcal{D}_{11}g(x,x)\gtrsim\mathcal{D}^2f(x)$` in the 
+Loewner sense. This follows from the fact that `$g(x,y)-f(x)$` attains its minimum over `$x\in X`$, equal to zero, at `$x=y$`. 
+
+If `$A$` is the algorithmic map that computes the successor of `$y$`, i.e. `$A(y)=\mathop{\text{argmin}}_{x\in X}g(x,y)$`, then
+
+<div>
+  $$\mathcal{D}A(x)=-[\mathcal{D}_{11}g(x,x)]^{-1}\mathcal{D}_{12}g(x,x)=I-[\mathcal{D}_{11}g(x,x)]^{-1}\mathcal{D}^2f(x)$$
+</div>
+
+If the spectral norm `$\rho(x)$`, the eigenvalue of largest modulus, of `$\mathcal{D}A(x)$` is strictly between zero and one, then
+the majorization algorithm converges linearly with rate `$\rho(x)$`.
 
 <h2>2 Tools of the Trade</h2>
 
