@@ -39,7 +39,7 @@ The assumptions for convergence can be relaxed a great deal, but we will not spe
 <h3>1.2 Differentiable Functions</h3>
 
 Suppose `$X$` is the whole of `$\mathbb{R}^n$`, and `$f$` and `$g$` are differentiable at a fixed point `$x$`. Then `$\mathcal{D}_1g(x,x)=\mathcal{D}f(x)$` and if `$f$` and `$g$` are twice differentiable `$\mathcal{D}_{11}g(x,x)\gtrsim\mathcal{D}^2f(x)$` in the 
-Loewner sense. This follows from the fact that `$g(x,y)-f(x)$` attains its minimum over `$x\in X`$, equal to zero, at `$x=y$`. 
+Loewner sense. This follows from the fact that `$g(x,y)-f(x)$` attains its minimum over `$x\in X$`, equal to zero, at `$x=y$`. 
 
 If `$A$` is the algorithmic map that computes the successor of `$y$`, i.e. `$A(y)=\mathop{\text{argmin}}_{x\in X}g(x,y)$`, then
 
@@ -62,7 +62,7 @@ also covers inequalities of the form `$h(x,y)\leq f(x)+f(y)$` by multiplying
 by -1 and inequalities of the form `$h(x,y)\geq f(x)f(y)$` (with positive functions) 
 by taking logarithms.
 
-<h4>2.1.1 AM/GM</h4>
+<h4>2.1.1 AM/GM Inequality</h4>
 
 Consider, for example, minimization of 
 
@@ -90,7 +90,7 @@ which is quadratic in `$x$`, and thus easy to minimize. The majorization algorit
 $$x^{(k+1)}=\left\{\sum_{i=1}^n \frac{w_i}{h_i(x^{(k)})}A_i\right\}^{-1}\sum_{i=1}^n w_i\frac{w_i}{h_i(x^{(k)})}b_i.$$
 </div>  
 
-<h4>2.1.2 Cauchy-Schwartz</h4>
+<h4>2.1.2 Cauchy-Schwartz Inequality</h4>
 
 In multidimensional scaling, or MDS, we minimize a function of the form
 
@@ -134,7 +134,7 @@ The majorization algorithm is
   $$x^{(k+1)}=V^+B(x^{(k)})x^{(k)}.$$
 </div>
 
-<h4>2.1.3 Jensen</h4>
+<h4>2.1.3 Jensen's Inequality</h4>
 
 Suppose `$-\infty=a_0<a_1<\cdots<a_n<a_{m+1}=+\infty$` are numbers that partition the real line into `$(m+1)$` intervals. Suppose that a discrete random variable takes the values `$1,\cdots,m+1$` with probabilities
 
@@ -192,6 +192,18 @@ $$(\sigma^2)^{(k+1)}=\sum_{j=1}^{m+1}p_j\left(V_j^{(k)}+(E_j^{(k)}-\mu^{(k+1)})^
 In this case the majorization algorithm gives the same results as the EM algorithm, which is not surprising because EM algorithms are majorization algorithms based on Jensen's inequality.
 
 <h3>2.2 Convexity</h3>
+
+Instead of specific inequalities we can also base majorization schemes on more general tools, such a properties of convex or concave functions. If $f$ is concave, for example,
+
+<div>
+  $$f(x)\leq f(y)+(x-y)'z,$$
+</div>
+
+for any `$z\in\partial f(y)$`, the subgradient at `$y$`.
+
+<h4>2.2.1 Aspects</h4>
+
+<h4>2.2.2 Tomography</h4>
 
 <h3>2.3 Taylor's Theorem</h3>
 
