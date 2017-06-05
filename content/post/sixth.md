@@ -224,7 +224,7 @@ By concavity
 $$f(x)\geq f(y)+\mathbf{tr}\ G(y)(R(x)-R(y)),$$
 </div>
 
-with `$G(y)\in\partial h(y)$.` Thus we have a minorization scheme and the minorization algorithm maximizes
+with `$G(y)\in\partial h(y)$.` Thus we have a minorization scheme and the minorization algorithm maximizes the quadratic
 
 <div>
   $$\sum_{j=1}^m\sum_{\ell=1}^m g_{j\ell}(x^{(k)})x_j'x_ell$$
