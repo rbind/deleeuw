@@ -174,17 +174,14 @@ $$(\sigma^2)^{(k+1)}=\sum_{j=1}^{m+1}p_j\left(V_j^{(k)}+(E_j^{(k)}-\mu^{(k+1)})^
 </div>
 
 In this case the majorization algorithm gives the same results as the EM algorithm, which is not surprising because EM algorithms are majorization algorithms based on Jensen's inequality.
+
 <h3>2.2 Convexity</h3>
 
 <h3>2.3 Taylor's Theorem</h3>
 
-<h2>Example: The Weber Point</h2>
+<h4>2.3.2 Second Order</h4>
 
-<h2>Example: Multidimensional Scaling</h2>
-
-<h2>Example: EM</h2>
-
-<h2>Example: Logistic Regression</h2>
+<h4>2.3.2 Higher Order</h4>
 
 <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
