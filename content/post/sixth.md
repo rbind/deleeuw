@@ -210,19 +210,27 @@ for any `$z\in\partial f(y)$`, the subgradient at `$y$`.
 
 Suppose `$\mathcal{K}_j$`, for `$j=1,\cdots,m$`, are convex cones in `$\mathbb{R}^n$`. Cone `$\mathcal{K}_j$` defines the possible transformations of `$n$` observations on variable `$j$`. Also `$\mathcal{S}$` is the unit sphere in `$\mathbb{R}^n$`.
 
-Given `$x_j\in\mathcal{K}_j\cap\mathcal{S}$` we can compute the correlation matrix `$R(x)=\{r_{ij}(x)\}=\{x_i'x_j\}$`. Now suppose
+Given `$x_j\in\mathcal{K}_j\cap\mathcal{S}$` we can compute the correlation matrix `$R(x)=\{r_{j\ell}(x)\}=\{x_j'x_\ell\}$`. Now suppose
+
 <div>
 $$f(x)=h(R(x))$$
 </div>
-where `$h$` is a concave real-valued function on the space of correlation matrices. Multivariate analysis abounds with such functions
-such as the sum of the $p$ smallest eigenvalues, the determinant, one minus the squared multiple correlation of one variable with the others, and the minimum of the negative multinormal log-likelihood.
+
+where `$h$` is a convex real-valued function on the space of correlation matrices, which we call an *aspect*. Multivariate analysis abounds with convex gain functions, such as the sum of the $p$ largest eigenvalues, the negative log-determinant, the squared multiple correlation of one variable with the others, and the maximum of the multinormal log-likelihood.
 
 By concavity
-<div>
-$$f(x)\leq\f(y)+\mathbf{tr}\ G(y)(R(x)-R(y)),$$
-</div>
-with `$G(y)\in\partial h(y)$.` Thus we have a majorization scheme and the majorization algorithm
 
+<div>
+$$f(x)\geq f(y)+\mathbf{tr}\ G(y)(R(x)-R(y)),$$
+</div>
+
+with `$G(y)\in\partial h(y)$.` Thus we have a minorization scheme and the minorization algorithm maximizes
+
+<div>
+  $$\sum_{j=1}^m\sum_{\ell=1}^m g_{j\ell}(x^{(k)})x_j'x_ell$$
+</div>
+
+over the `$x_j\in\mathcal{K}_j\cap\mathcal{S}$`. Computing transformed variables in this way is sometimes known as *optimal scaling*.
 
 <h4>2.2.2 Tomography</h4>
 
