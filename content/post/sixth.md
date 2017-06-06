@@ -283,17 +283,17 @@ Another, even more general tool, is the Taylor series of a sufficiently many tim
 If we use the Langrange form of the remainder we can write
 
 <div>
-  $$f(x)=f(y)+(x-y)'Df(y)+\frac12 (x-y)'D^2f(z)(x-y)$$
+  $$f(x)=f(y)+(x-y)'Df(y)+\frac12 (x-y)'D^2f(\xi)(x-y)$$
 </div>
 
-for some `$z$` on the line connecting `$x$` and `$y$`. Thus
+for some `$\xi$` on the line connecting `$x$` and `$y$`. Thus
 
 <div>
   $$f(x)\leq f(y)+(x-y)'Df(y)+\frac12 \max_{0\leq\lambda\leq 1}(x-y)'D^2f(\lambda x +(1-\lambda)y)(x-y)$$
 </div>
 
 gives a majorization scheme, but the scheme may not be a simple function. If, however, `$\mathcal{D}^2f(x)\lesssim A$` for all
-`$x$` then the majorization scheme is the quadratic
+`$x\in X$` then the majorization scheme is the quadratic
 
 <div>
   $$f(x)\leq f(y)+(x-y)'Df(y)+\frac12(x-y)'A(x-y),$$
@@ -347,24 +347,28 @@ objective function, then we will have a superlinear convergence rate.
 Taylor's theorem, with the Lagrange remainder, tells us that for three-times differentiable functions
 
 <div>
-$$f(x)=f(y)+(x-y)'\mathcal{D}f(y)+\frac12 (x-y)'\mathcal{D}^2f(y)(x-y)+\frac16 \mathcal{D}^3f(z)\{(x-y)^3\},$$
+$$f(x)=f(y)+(x-y)'\mathcal{D}f(y)+\frac12 (x-y)'\mathcal{D}^2f(y)(x-y)+\frac16 \mathcal{D}^3f(\xi)\{(x-y)^3\},$$
 </div>
 
-with apologies for the notation. Here again `$z=\lambda x+(1-\lambda)y$` for some `$0\leq\lambda\leq 1$`. 
+with apologies for the notation. Here again `$\xi=\lambda x+(1-\lambda)y$` for some `$0\leq\lambda\leq 1$`. 
 
 We get a 
 majorization scheme by bounding the cubic term `$\mathcal{D}^3f(z)\{(x-y)^3\}.$` This can be done in various ways,
 but many of them lead to majorization schemes that are difficult to minimize.
 
+One of the more promising ones uses a bound of the form
+
 <div>
-$$\mathcal{D}^3f(z)\{(x-y)^3\}\leq K\{(x-y)'(x-y)\}^\frac32$$
+\mathcal{D}^3f(\xi)\{(x-y)^3\}\leq K\{(x-y)'(x-y)\}^\frac32.$$
 </div>
+
+This leads to minimization of the majorization scheme
 
 <div>
 $$g(x,y)=f(y)+(x-y)'\mathcal{D}f(y)+\frac12 (x-y)'\mathcal{D}^2f(y)(x-y)+\frac{K\delta}{6}(x-y)'(x-y)$$
 </div>
 
-on the condition that `$\delta=\|x-y\|$`. The solution is
+on the condition that `$\delta=\|x-y\|$`. The solution is a *regularized Newton step*
 
 <div>
 $$x=y-\left[\mathcal{D}^2f(y)+\frac{K\delta}{3}I\right]^{-1}\mathcal{D}f(y)$$
@@ -375,6 +379,18 @@ where `$\delta$` solves the single-variable *secular equation*
 <div>
 $$\delta^2=\mathcal{D}f(y)'\left[\mathcal{D}^2f(y)+\frac{K\delta}{3} I\right]^{-2}\mathcal{D}f(y)$$
 </div> 
+
+Logistic regression can again we used as an example. We have for the negative log-likelihood
+
+<div>
+$$\mathcal{D}^3f(x)=\sum_{i=1}^nn_i\pi_i(x)(1-\pi_i(x))(1-2\pi_i(x))\ z_i\otimes z_i\otimes z_i.$$
+</div>
+
+Now `$\pi_i(x)(1-\pi_i(x))(1-2\pi_i(x))\leq \frac{1}{18}\sqrt{3}$` so that
+
+<div>
+$$\mathcal{D}^3f(\xi)\{(x-y)^3\}\leq\frac{1}{18}\sqrt{3}\sum_{i=1}^nn_i|z_i'(x-y)|^3\leq\frac{1}{18}\sqrt{3}\sum_{i=1}^nn_i\|z_i\|^3\|x-y\|^3.
+</div>
 
 <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
