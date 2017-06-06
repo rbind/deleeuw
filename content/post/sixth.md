@@ -91,7 +91,7 @@ and thus `$f(x)\leq g(x,y)$` with a majorization scheme
 which is quadratic in `$x$`, and thus easy to minimize. The majorization algorithm is
 
 <div>
-$$x^{(k+1)}=\left\{\sum_{i=1}^n \frac{w_i}{h_i(x^{(k)})}A_i\right\}^{-1}\sum_{i=1}^n w_i\frac{w_i}{h_i(x^{(k)})}b_i.$$
+$$x^{(k+1)}=\left\{\sum_{i=1}^n \frac{w_i}{h_i(x^{(k)})}A_i\right\}^{-1}\sum_{i=1}^n \frac{w_i}{h_i(x^{(k)})}b_i.$$
 </div>  
 
 <h4>2.1.2 Cauchy-Schwartz Inequality</h4>
