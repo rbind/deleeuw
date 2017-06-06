@@ -271,11 +271,7 @@ $$g(x,y)=\sum_{i=1}^n\pi_ih\left(\frac{w_i}{\pi_i}(x_i-y_i)-w'y\right).$$
 
 <h3>2.3 Taylor's Theorem</h3>
 
-Another, even more general tool, is the Taylor series of a sufficiently many times differentiable function.
-
-<div>
-  $$f(x)=f(y)+(x-y)'Df(y)+\frac12 (x-y)'D^2f(y)(x-y)+\cdots$$
-</div>
+Another, even more general tool, is Taylor's theorem for a sufficiently many times differentiable function.
 
 <h4>2.3.2 Second Order</h4>
 
@@ -291,14 +287,20 @@ for some `$\xi$` on the line connecting `$x$` and `$y$`. Thus
   $$f(x)\leq f(y)+(x-y)'Df(y)+\frac12 \max_{0\leq\lambda\leq 1}(x-y)'D^2f(\lambda x +(1-\lambda)y)(x-y)$$
 </div>
 
-gives a majorization scheme, but the scheme may not be a simple function. If, however, `$\mathcal{D}^2f(x)\lesssim A$` for all
-`$x\in X$` then the majorization scheme is the quadratic
+gives a majorization scheme, but the scheme may not be simple to minimize. If, however, `$\mathcal{D}^2f(x)\lesssim A$` for all
+`$x\in X$` then the majorization scheme can be chosen as the quadratic
 
 <div>
   $$f(x)\leq f(y)+(x-y)'Df(y)+\frac12(x-y)'A(x-y),$$
 </div>
 
-and the majorization algorithm metrically projects `$x^{(k)}-A^{-1}\mathcal{D}f(x^{(k)})$` on `$X$` to find `$x^{(k+1)}$`.
+and the majorization algorithm is
+
+<div>
+$$x^{(k+1)}=\mathcal{P}_X(x^{(k)}-A^{-1}\mathcal{D}f(x^{(k)})),$$
+</div>
+
+with $\mathcal{P}$ the metric projection on `$X$`.
 
 A simple example is logistic regression. The negative log-likelihood is
 
