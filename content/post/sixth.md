@@ -322,7 +322,7 @@ $$f(x)=\sum_{i=1}^n n_i\{p_iz_i'x-\log(1-\pi_i(x))\},$$
 and thus
 
 <div>
-$$\mathcal{D}f(x)=\sum_{i=1}^n n_i\{p_i-\pi_i(x)\}z_i,SS
+$$\mathcal{D}f(x)=\sum_{i=1}^n n_i\{p_i-\pi_i(x)\}z_i,$$
 </div>
 
 and
