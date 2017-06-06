@@ -355,20 +355,21 @@ majorization scheme by bounding the cubic term `$\mathcal{D}^3f(z)\{(x-y)^3\}.$`
 but many of them lead to majorization schemes that are difficult to minimize.
 
 <div>
-$$\mathcal{D}^3f(z)\{(x-y)^3\}\leq K\{(x-y)'(x-y)}^\frac32$$
+$$\mathcal{D}^3f(z)\{(x-y)^3\}\leq K\{(x-y)'(x-y)\}^\frac32$$
 </div>
 
 <div>
 $$g(x,y)=f(y)+(x-y)'\mathcal{D}f(y)+\frac12 (x-y)'\mathcal{D}^2f(y)(x-y)+\frac{K}{6}\delta(x-y)'(x-y)$$
 </div>
+
 on the condition that `$\delta=\|x-y\|$`.
 
 <div>
-$$x=y-\left[\mathcal{D}^2f(y)+\frac{K}{3}\delta\right I]^{-1}\mathcal{D}f(y)$$
+$$x=y-\left[\mathcal{D}^2f(y)+\frac{K}{3}\delta I\right]^{-1}\mathcal{D}f(y)$$
 </div> 
 
 <div>
-$$\delta^2=\mathcal{D}f(y)'\left[\mathcal{D}^2f(y)+\frac{K}{3}\delta\right I]^{-2}\mathcal{D}f(y)$$
+$$\delta^2=\mathcal{D}f(y)'\left[\mathcal{D}^2f(y)+\frac{K}{3}\delta I\right]^{-2}\mathcal{D}f(y)$$
 </div> 
 
 <script type="text/javascript"
