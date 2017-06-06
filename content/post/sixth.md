@@ -342,8 +342,7 @@ This simple bound can be used to get a quadratic majorization scheme.
 
 <h4>2.3.2 Higher Order</h4>
 
-Most majorization methods discussed fo far have a linear convergence rate, because `$\mathcal{D}f^2(x)$` is strictly smaller, in the Loewner sense, than `$\mathcal{D}_11g(x,x)$`. If we can find majorization schemes with the same second order derivatives as the
-objective function, then we will have a superlinear convergence rate.
+Most majorization algorithms discussed so far have a linear convergence rate, because `$\mathcal{D}f^2(x)$` is strictly smaller, in the Loewner sense, than `$\mathcal{D}_11g(x,x)$`. If we can find majorization schemes `$g$` with the same second order derivatives as the objective function `$f$`, then we will have a superlinear convergence rate.
 
 Taylor's theorem, with the Lagrange remainder, tells us that for three-times differentiable functions
 
