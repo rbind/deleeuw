@@ -38,8 +38,7 @@ If the function `$f$` is bounded below, the iterates stay in a compact set, the 
 `$x_\infty\in X$`, i.e. a point with `$x_\infty=\mathop{\text{argmin}}_{x\in X}g(x,x_\infty)$`. More precisely, the sequence
 `$f(x^{(k)})$` converges, each accumulation point of the sequence `$x^{(k)}$` we generate is a fixed point, and all accumulation points have the same function value. The assumptions for convergence can be relaxed a great deal, but we will not specify these in detail.
 
-Finally, not that we use majorization for minimization. In the same way we can use minorization for maximization. This is the reason
-majorization algorithms are often called MM algorithms these days.
+Finally, note that we use majorization for minimization problems. In the same way we can use minorization for maximization problems. This is the reason majorization algorithms are usually called MM algorithms these days.
 
 <h3>1.2 Differentiable Functions</h3>
 
