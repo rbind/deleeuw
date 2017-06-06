@@ -264,7 +264,7 @@ Alternatively, for any positive vector `$\pi$` with elements adding up to one,
 $$f(x)=h\left(\sum_{i=1}^n\pi_i\left(\frac{w_i}{\pi_i}(x_i-y_i)-w'y\right)\right),$$
 </div>
 
-and the majorization is `$g$` defined by
+and the majorization scheme is defined as
 
 <div>
 $$g(x,y)=\sum_{i=1}^n\pi_ih\left(\frac{w_i}{\pi_i}(x_i-y_i)-w'y\right).$$
@@ -330,6 +330,14 @@ and
 <div>
 $$\mathcal{D}^2f(x)=\sum_{i=1}^nn_i\pi_i(x)(1-\pi_i(x))z_i^{\ }z_i'.$$
 </div>
+
+Now `$\pi_i(x)(1-\pi_i(x))\leq\frac14$`, and thus
+
+<div>
+$$\mathcal{D}^2f(x)\lesssim\frac14 Z'NZ.$$
+</div> 
+
+This simple bound can be used to get a quadratic majorization scheme. 
 
 <h4>2.3.2 Higher Order</h4>
 
