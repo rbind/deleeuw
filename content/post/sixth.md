@@ -102,7 +102,7 @@ In multidimensional scaling, or MDS, we minimize a function of the form
 $$f(x)=\sum_{i=1}^n w_i(\delta_i-\sqrt{x'A_ix})^2,$$
 </div>
 
-where again the $A_i$ are positive semi-definite. Suppose without loss of generalitythe `$\delta_i$` have weighted sum of squares equal to 1. Then
+where again the $A_i$ are positive semi-definite. Suppose without loss of generality the `$\delta_i$` have weighted sum of squares equal to 1. Then
 
 <div>
 $$f(x)=1+x'Vx-2\sum_{i=1}^n w_i\delta_i\sqrt{x'A_ix},$$
@@ -174,7 +174,7 @@ f(\mu,\sigma)\geq f(\widehat\mu,\widehat\sigma)+\\\sum_{j=1}^{m+1}\frac{p_j}{\pi
 \end{multline*}
 </div>
 
-It follows that instep $k$ of the majorization algorithm we minimize 
+It follows that in step $k$ of the majorization algorithm we minimize 
 
 <div>
   $$\log\sigma^2+\frac{1}{\sigma^2}\sum_{j=1}^{m+1} p_j(V_j^{(k)}+(E_j^{(k)}-\mu)^2),$$
@@ -227,7 +227,7 @@ $$f(x)\geq f(y)+\mathbf{tr}\ G(y)(R(x)-R(y)),$$
 with `$G(y)\in\partial h(y)$.` Thus we have a minorization scheme and the minorization algorithm maximizes the quadratic
 
 <div>
-  $$\sum_{j=1}^m\sum_{\ell=1}^m g_{j\ell}(x^{(k)})x_j'x_\ell$$
+  $$\sum_{j=1}^m\sum_{\ell=1}^m g_{j\ell}(x^{(k)})x_j'x_\ell^{\ }$$
 </div>
 
 over the `$x_j\in\mathcal{K}_j\cap\mathcal{S}$`. Computing transformed variables in this way is sometimes known as *optimal scaling*.
@@ -254,8 +254,8 @@ and if `$g$` is defined as
 $$g(x,y)=\sum_{i=1}^n\left(\frac{w_iy_i}{w'y}\right)h\left(\frac{w'y}{y_i}x_i\right)$$
 </div>
 
-then, by the definition of convexity, `$f(x)\leq g(x,y)$`. Also, clearly, `$f(x)=g(x,x)$` and thus we have a majorization scheme on 
-`$(\mathbb{R}^+)^n$`.
+then, by the definition of convexity, `$f(x)\leq g(x,y)$`. Also, clearly, `$f(x)=g(x,x)$` and thus we have us a separable majorization scheme. 
+
 
 Alternatively, for any positive vector `$\pi$` with elements adding up to one, 
 
