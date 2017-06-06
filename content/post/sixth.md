@@ -359,8 +359,10 @@ but many of them lead to majorization schemes that are difficult to minimize.
 One of the more promising ones uses a bound of the form
 
 <div>
-$$\mathcal{D}^3f(\xi)\{(x-y)^3\}\leq K\|x-y\|^3.$$
+$$\mathcal{D}^3f(\xi)\{(x-y)^3\}\leq K\|x-y\|^3,$$
 </div>
+
+with `$\|x-y\|=\sqrt{(x-y)'(x-y)}$`.
 
 This leads to minimization of the majorization scheme
 
@@ -380,6 +382,8 @@ where `$\delta$` solves the single-variable *secular equation*
 $$\delta^2=\mathcal{D}f(y)'\left[\mathcal{D}^2f(y)+\frac{K\delta}{3} I\right]^{-2}\mathcal{D}f(y).$$
 </div> 
 
+The secular equation can be solved efficiently if we start with the eigen-decomposition of `$\mathcal{D}^2f(y)$`.
+
 Logistic regression can again be used as an example. We have for the negative log-likelihood
 
 <div>
@@ -391,6 +395,14 @@ Now `$|\pi_i(x)(1-\pi_i(x))(1-2\pi_i(x))|\leq \frac{1}{18}\sqrt{3}$` so that
 <div>
 $$\mathcal{D}^3f(\xi)\{(x-y)^3\}\leq\frac{1}{18}\sqrt{3}\sum_{i=1}^nn_i|z_i'(x-y)|^3\leq\frac{1}{18}\sqrt{3}\sum_{i=1}^nn_i\|z_i\|^3\|x-y\|^3.$$
 </div>
+
+Thus
+
+<div>
+  $$K=\frac{1}{18}\sqrt{3}\sum_{i=1}^nn_i\|z_i\|^3$$.
+</div>
+
+The bound is crude, so it may take some iterations before superlinear convergence takes over.
 
 <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
