@@ -56,14 +56,14 @@ the majorization algorithm converges linearly with rate `$\rho(x)$`.
 
 <h2>2 Tools of the Trade</h2>
 
-In this section we will try to give some idea of the tools that are available to construct majorization schemes and the corresponding majorization algorithms.
+In this section we will try to give some idea of the tools that are available to construct majorization schemes and of the corresponding majorization algorithms they generate.
 
 <h3>2.1 Inequalities</h3>
 
 Any inequality of the form `$h(x,y)\geq f(x)+f(y)$`, with equality if and only if 
 `$x=y$` leads to a strict majorization scheme with `$g(x,y)=h(x,y)-f(y)$`. This
 also covers inequalities of the form `$h(x,y)\leq f(x)+f(y)$` by multiplying
-by -1 and inequalities of the form `$h(x,y)\geq f(x)f(y)$` (with positive functions) 
+by -1, and inequalities of the form `$h(x,y)\geq f(x)f(y)$` (with positive functions) 
 by taking logarithms.
 
 <h4>2.1.1 AM/GM Inequality</h4>
