@@ -359,7 +359,7 @@ but many of them lead to majorization schemes that are difficult to minimize.
 One of the more promising ones uses a bound of the form
 
 <div>
-\mathcal{D}^3f(\xi)\{(x-y)^3\}\leq K\{(x-y)'(x-y)\}^\frac32.$$
+$$\mathcal{D}^3f(\xi)\{(x-y)^3\}\leq K\{(x-y)'(x-y)\}^\frac32.$$
 </div>
 
 This leads to minimization of the majorization scheme
