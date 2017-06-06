@@ -389,7 +389,7 @@ $$\mathcal{D}^3f(x)=\sum_{i=1}^nn_i\pi_i(x)(1-\pi_i(x))(1-2\pi_i(x))\ z_i\otimes
 Now `$\pi_i(x)(1-\pi_i(x))(1-2\pi_i(x))\leq \frac{1}{18}\sqrt{3}$` so that
 
 <div>
-$$\mathcal{D}^3f(\xi)\{(x-y)^3\}\leq\frac{1}{18}\sqrt{3}\sum_{i=1}^nn_i|z_i'(x-y)|^3\leq\frac{1}{18}\sqrt{3}\sum_{i=1}^nn_i\|z_i\|^3\|x-y\|^3.
+$$\mathcal{D}^3f(\xi)\{(x-y)^3\}\leq\frac{1}{18}\sqrt{3}\sum_{i=1}^nn_i|z_i'(x-y)|^3\leq\frac{1}{18}\sqrt{3}\sum_{i=1}^nn_i\|z_i\|^3\|x-y\|^3.$$
 </div>
 
 <script type="text/javascript"
