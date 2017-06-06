@@ -316,19 +316,19 @@ with
 This simplifies to
 
 <div>
-  $$f(x)=\sum_{i=1}^n n_i\{p_iz_i'x-\log(1-\pi_i(x))\},$$
+$$f(x)=\sum_{i=1}^n n_i\{p_iz_i'x-\log(1-\pi_i(x))\},$$
 </div>
 
 and thus
 
 <div>
-  $$\mathcal{D}f(x)=\sum_{i=1}^n n_i(p_i-\pi_i(x))z_i,SS
+$$\mathcal{D}f(x)=\sum_{i=1}^n n_i\{p_i-\pi_i(x)\}z_i,SS
 </div>
 
 and
 
 <div>
-  $$\mathcal{D}^2f(x)=\sum_{i=1}^nn_i\pi_i(x)(1-\pi_i(x))z_i^{\ }z_i'.$$
+$$\mathcal{D}^2f(x)=\sum_{i=1}^nn_i\pi_i(x)(1-\pi_i(x))z_i^{\ }z_i'.$$
 </div>
 
 <h4>2.3.2 Higher Order</h4>
