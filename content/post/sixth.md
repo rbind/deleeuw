@@ -2,11 +2,11 @@
 date = "2017-06-03T09:00:00"
 draft = false
 tags = []
-title = "Majorization"
+title = "Majorization in a Nutshell"
 math = true
 +++
 I use majorization in many of my papers. So a relatively short general introduction with some examples may be useful. Here we go.
-Keep reading.
+Keep reading. If the math looks weird, refresh your browser.
 <!--more-->
 
 <h2>1 Introduction</h2>
@@ -340,6 +340,36 @@ $$\mathcal{D}^2f(x)\lesssim\frac14 Z'NZ.$$
 This simple bound can be used to get a quadratic majorization scheme. 
 
 <h4>2.3.2 Higher Order</h4>
+
+Most majorization methods discussed fo far have a linear convergence rate, because `$\mathcal{D}f^2(x)$` is strictly smaller, in the Loewner sense, than `$\mathcal{D}_11g(x,x)$`. If we can find majorization schemes with the same second order derivatives as the
+objective function, then we will have a superlinear convergence rate.
+
+Taylor's theorem, with the Lagrange remainder, tells us that for three-times differentiable functions
+
+<div>
+$$f(x)=f(y)+(x-y)'\mathcal{D}f(y)+\frac12 (x-y)'\mathcal{D}^2f(y)(x-y)+\frac16 \mathcal{D}^3f(z)\{(x-y)^3\},$$
+</div>
+
+with apologies for the notation. Here again `$z=\lambda x+(1-\lambda)y$` for some `$0\leq\lambda\leq 1$`. We get a 
+majorization scheme by bounding the cubic term `$\mathcal{D}^3f(z)\{(x-y)^3\}.$` This can be done in various ways,
+but many of them lead to majorization schemes that are difficult to minimize.
+
+<div>
+$$\mathcal{D}^3f(z)\{(x-y)^3\}\leq K\{(x-y)'(x-y)}^\frac32$$
+</div>
+
+<div>
+$$g(x,y)=f(y)+(x-y)'\mathcal{D}f(y)+\frac12 (x-y)'\mathcal{D}^2f(y)(x-y)+\frac{K}{6}\delta(x-y)'(x-y)$$
+</div>
+on the condition that `$\delta=\|x-y\|$`.
+
+<div>
+$$x=y-\left[\mathcal{D}^2f(y)+\frac{K}{3}\delta\right I]^{-1}\mathcal{D}f(y)$$
+</div> 
+
+<div>
+$$\delta^2=\mathcal{D}f(y)'\left[\mathcal{D}^2f(y)+\frac{K}{3}\delta\right I]^{-2}\mathcal{D}f(y)$$
+</div> 
 
 <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
