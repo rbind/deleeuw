@@ -350,7 +350,9 @@ Taylor's theorem, with the Lagrange remainder, tells us that for three-times dif
 $$f(x)=f(y)+(x-y)'\mathcal{D}f(y)+\frac12 (x-y)'\mathcal{D}^2f(y)(x-y)+\frac16 \mathcal{D}^3f(z)\{(x-y)^3\},$$
 </div>
 
-with apologies for the notation. Here again `$z=\lambda x+(1-\lambda)y$` for some `$0\leq\lambda\leq 1$`. We get a 
+with apologies for the notation. Here again `$z=\lambda x+(1-\lambda)y$` for some `$0\leq\lambda\leq 1$`. 
+
+We get a 
 majorization scheme by bounding the cubic term `$\mathcal{D}^3f(z)\{(x-y)^3\}.$` This can be done in various ways,
 but many of them lead to majorization schemes that are difficult to minimize.
 
@@ -359,17 +361,19 @@ $$\mathcal{D}^3f(z)\{(x-y)^3\}\leq K\{(x-y)'(x-y)\}^\frac32$$
 </div>
 
 <div>
-$$g(x,y)=f(y)+(x-y)'\mathcal{D}f(y)+\frac12 (x-y)'\mathcal{D}^2f(y)(x-y)+\frac{K}{6}\delta(x-y)'(x-y)$$
+$$g(x,y)=f(y)+(x-y)'\mathcal{D}f(y)+\frac12 (x-y)'\mathcal{D}^2f(y)(x-y)+\frac{K\delta}{6}(x-y)'(x-y)$$
 </div>
 
-on the condition that `$\delta=\|x-y\|$`.
+on the condition that `$\delta=\|x-y\|$`. The solution is
 
 <div>
-$$x=y-\left[\mathcal{D}^2f(y)+\frac{K}{3}\delta I\right]^{-1}\mathcal{D}f(y)$$
+$$x=y-\left[\mathcal{D}^2f(y)+\frac{K\delta}{3}I\right]^{-1}\mathcal{D}f(y)$$
 </div> 
 
+where `$\delta$` solves the single-variable *secular equation*
+
 <div>
-$$\delta^2=\mathcal{D}f(y)'\left[\mathcal{D}^2f(y)+\frac{K}{3}\delta I\right]^{-2}\mathcal{D}f(y)$$
+$$\delta^2=\mathcal{D}f(y)'\left[\mathcal{D}^2f(y)+\frac{K\delta}{3} I\right]^{-2}\mathcal{D}f(y)$$
 </div> 
 
 <script type="text/javascript"
