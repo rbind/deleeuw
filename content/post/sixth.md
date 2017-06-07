@@ -419,13 +419,13 @@ MathJax.Hub.Config({
          extensions: ["AMSmath.js", "AMSsymbols.js"] }
   }
 });
+</script>
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   CommonHTML: {
     scale: 130
   }
 });
-</script>
 </script>
 <script type="text/x-mathjax-config">
   MathJax.Hub.Queue(function() {
