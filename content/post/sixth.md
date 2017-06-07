@@ -423,7 +423,7 @@ MathJax.Hub.Config({
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   CommonHTML: {
-    scale: 130
+    scale: 110
   }
 });
 </script>
