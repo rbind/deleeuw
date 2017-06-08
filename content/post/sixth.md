@@ -344,7 +344,7 @@ This simple bound can be used to get a quadratic majorization scheme.
 
 <h4>2.3.2 Higher Order</h4>
 
-Most majorization algorithms discussed so far have a linear convergence rate, because `$\mathcal{D}f^2(x)$` is strictly smaller, in the Loewner sense, than `$\mathcal{D}_11g(x,x)$`. If we can find majorization schemes `$g$` with the same second order derivatives as the objective function `$f$`, then we will have a superlinear convergence rate.
+Most majorization algorithms discussed so far have a linear convergence rate, because `$\mathcal{D}f^2(x)$` is strictly smaller, in the Loewner sense, than `$\mathcal{D}_{11}g(x,x)$`. If we can find majorization schemes `$g$` with the same second order derivatives as the objective function `$f$`, then we will have a superlinear convergence rate.
 
 Taylor's theorem, with the Lagrange remainder, tells us that for three-times differentiable functions
 
@@ -384,7 +384,7 @@ where `$\delta$` solves the single-variable *secular equation*
 $$\delta^2=\mathcal{D}f(y)'\left[\mathcal{D}^2f(y)+\frac{K\delta}{3} I\right]^{-2}\mathcal{D}f(y).$$
 </div> 
 
-The secular equation can be solved efficiently if we start with the eigen-decomposition of `$\mathcal{D}^2f(y)$`.
+The secular equation can be solved efficiently, starting from the eigen-decomposition of `$\mathcal{D}^2f(y)$`.
 
 Logistic regression can again be used as an example. We have for the negative log-likelihood
 
