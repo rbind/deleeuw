@@ -1,5 +1,5 @@
 +++
-date = "2017-06-03T09:00:00"
+date = "2017-06-06T09:00:00"
 draft = false
 tags = []
 title = "Majorization in a Nutshell"
@@ -44,6 +44,8 @@ Finally, note that we use majorization for minimization problems. In the same wa
 
 Suppose `$X$` is the whole of `$\mathbb{R}^n$`, and `$f$` and `$g$` are differentiable at a fixed point `$x$`. Then `$\mathcal{D}_1g(x,x)=\mathcal{D}f(x)$` and if `$f$` and `$g$` are twice differentiable `$\mathcal{D}_{11}g(x,x)\gtrsim\mathcal{D}^2f(x)$` in the 
 Loewner sense. This follows from the fact that `$g(x,y)-f(x)$` attains its minimum, equal to zero, over `$x\in X$` at `$x=y$`. 
+In fact the majorization relation implies that `$\mathcal{D}^2f(x)=\mathcal{D}_{11}g(x,x)+\mathcal{D}_{12}g(x,x)$` and
+`$\mathcal{D}_{21}g(x,x)+\mathcal{D}_{22}g(x,x)=0$` for all `$x$`.
 
 If `$A$` is the algorithmic map that computes the successor of `$y$`, i.e. `$A(y)=\mathop{\text{argmin}}_{x\in X}g(x,y)$`, then
 
