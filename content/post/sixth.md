@@ -391,7 +391,7 @@ Suppose `$L\Lambda L'$` is one such eigen-decomposition, and define `$g:=L'\math
 $$\delta^2=\sum_{i=1}^n \frac{g_i^2}{(\lambda_i+K\delta)^2}.$$
 </div>
 
-Logistic regression can again be used as an example. We have for the negative log-likelihood
+We again use logistic regression as an example. For the negative log-likelihood
 
 <div>
 $$\mathcal{D}^3f(x)=\sum_{i=1}^nn_i\pi_i(x)(1-\pi_i(x))(1-2\pi_i(x))\ z_i\otimes z_i\otimes z_i.$$
