@@ -386,6 +386,12 @@ $$\delta^2=\mathcal{D}f(y)'\left[\mathcal{D}^2f(y)+\frac{K\delta}{3} I\right]^{-
 
 The secular equation can be solved efficiently, starting from the eigen-decomposition of `$\mathcal{D}^2f(y)$`.
 
+Suppose `$L\Lambda L'$` is one such eigen-decomposition, and define `$g:=L'\mathcal{D}f(y)$`. Then we must solve
+
+<div>
+$$\delta^2=\sum_{i=1}^n \frac{g_i^2}{(\lambda_i+\frac{K\delta}{3})^2}.$$
+</div>
+
 Logistic regression can again be used as an example. We have for the negative log-likelihood
 
 <div>
