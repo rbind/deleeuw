@@ -356,12 +356,12 @@ with apologies for the notation. Here again `$\xi=\lambda x+(1-\lambda)y$` for s
 
 We get a 
 majorization scheme by bounding the cubic term `$\mathcal{D}^3f(\xi)\{(x-y)^3\}.$` This can be done in various ways,
-but many of them lead to majorization schemes that are difficult to minimize.
+but most of them lead to majorization schemes that are difficult to minimize.
 
 One of the more promising ones uses a bound of the form
 
 <div>
-$$\mathcal{D}^3f(\xi)\{(x-y)^3\}\leq K\|x-y\|^3,$$
+$$\mathcal{D}^3f(\xi)\{(x-y)^3\}\leq\frac13 K\|x-y\|^3,$$
 </div>
 
 with `$\|x-y\|=\sqrt{(x-y)'(x-y)}$`.
@@ -369,19 +369,19 @@ with `$\|x-y\|=\sqrt{(x-y)'(x-y)}$`.
 This leads to minimization of the majorization scheme
 
 <div>
-$$g(x,y)=f(y)+(x-y)'\mathcal{D}f(y)+\frac12 (x-y)'\mathcal{D}^2f(y)(x-y)+\frac{K\delta}{6}(x-y)'(x-y),$$
+$$g(x,y)=f(y)+(x-y)'\mathcal{D}f(y)+\frac12 (x-y)'\mathcal{D}^2f(y)(x-y)+\frac12 K\delta(x-y)'(x-y),$$
 </div>
 
-on the condition that `$\delta=\|x-y\|$`. The solution is a *regularized Newton step*
+on the condition that `$\delta=\|x-y\|$`. The solution is a *regularized Newton step* of the form
 
 <div>
-$$x=y-\left[\mathcal{D}^2f(y)+\frac{K\delta}{3}I\right]^{-1}\mathcal{D}f(y),$$
+$$x=y-\left[\mathcal{D}^2f(y)+\delta I\right]^{-1}\mathcal{D}f(y),$$
 </div> 
 
 where `$\delta$` solves the single-variable *secular equation*
 
 <div>
-$$\delta^2=\mathcal{D}f(y)'\left[\mathcal{D}^2f(y)+\frac{K\delta}{3} I\right]^{-2}\mathcal{D}f(y).$$
+$$\delta^2=\mathcal{D}f(y)'\left[\mathcal{D}^2f(y)+K\delta I\right]^{-2}\mathcal{D}f(y).$$
 </div> 
 
 The secular equation can be solved efficiently, starting from the eigen-decomposition of `$\mathcal{D}^2f(y)$`.
@@ -389,7 +389,7 @@ The secular equation can be solved efficiently, starting from the eigen-decompos
 Suppose `$L\Lambda L'$` is one such eigen-decomposition, and define `$g:=L'\mathcal{D}f(y)$`. Then we must solve
 
 <div>
-$$\delta^2=\sum_{i=1}^n \frac{g_i^2}{(\lambda_i+\frac{K\delta}{3})^2}.$$
+$$\delta^2=\sum_{i=1}^n \frac{g_i^2}{(\lambda_i+K\delta)^2}.$$
 </div>
 
 Logistic regression can again be used as an example. We have for the negative log-likelihood
@@ -401,13 +401,13 @@ $$\mathcal{D}^3f(x)=\sum_{i=1}^nn_i\pi_i(x)(1-\pi_i(x))(1-2\pi_i(x))\ z_i\otimes
 Now `$|\pi_i(x)(1-\pi_i(x))(1-2\pi_i(x))|\leq \frac{1}{18}\sqrt{3}$` so that
 
 <div>
-$$\mathcal{D}^3f(\xi)\{(x-y)^3\}\leq\frac{1}{18}\sqrt{3}\sum_{i=1}^nn_i|z_i'(x-y)|^3\leq\frac{1}{18}\sqrt{3}\sum_{i=1}^nn_i\|z_i\|^3\|x-y\|^3.$$
+$$\mathcal{D}^3f(\xi)\{(x-y)^3\}\leq\frac16\sqrt{3}\sum_{i=1}^nn_i|z_i'(x-y)|^3\leq\frac{1}{18}\sqrt{3}\sum_{i=1}^nn_i\|z_i\|^3\|x-y\|^3.$$
 </div>
 
 Thus
 
 <div>
-  $$K=\frac{1}{18}\sqrt{3}\sum_{i=1}^nn_i\|z_i\|^3$$.
+  $$K=\frac{1}{18}\sqrt{3}\sum_{i=1}^nn_i\|z_i\|^3.$$
 </div>
 
 The bound is crude, so it may take some iterations before superlinear convergence takes over.
