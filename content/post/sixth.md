@@ -375,7 +375,7 @@ $$g(x,y)=f(y)+(x-y)'\mathcal{D}f(y)+\frac12 (x-y)'\mathcal{D}^2f(y)(x-y)+\frac12
 on the condition that `$\delta=\|x-y\|$`. The solution is a *regularized Newton step* of the form
 
 <div>
-$$x=y-\left[\mathcal{D}^2f(y)+\delta I\right]^{-1}\mathcal{D}f(y),$$
+$$x=y-\left[\mathcal{D}^2f(y)+K\delta I\right]^{-1}\mathcal{D}f(y),$$
 </div> 
 
 where `$\delta$` solves the single-variable *secular equation*
@@ -385,7 +385,6 @@ $$\delta^2=\mathcal{D}f(y)'\left[\mathcal{D}^2f(y)+K\delta I\right]^{-2}\mathcal
 </div> 
 
 The secular equation can be solved efficiently, starting from the eigen-decomposition of `$\mathcal{D}^2f(y)$`.
-
 Suppose `$L\Lambda L'$` is one such eigen-decomposition, and define `$g:=L'\mathcal{D}f(y)$`. Then we must solve
 
 <div>
