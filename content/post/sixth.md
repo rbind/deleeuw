@@ -369,26 +369,30 @@ with `$\|x-y\|=\sqrt{(x-y)'(x-y)}$`.
 This leads to minimization of the majorization scheme
 
 <div>
-$$g(x,y)=f(y)+(x-y)'\mathcal{D}f(y)+\frac12 (x-y)'\mathcal{D}^2f(y)(x-y)+\frac16 K\delta(x-y)'(x-y),$$
+$$g(x,y)=f(y)+(x-y)'\mathcal{D}f(y)+\frac12 (x-y)'\mathcal{D}^2f(y)(x-y)+\frac16 K\|x-y\|^3,$$
 </div>
 
-on the condition that `$\delta=\|x-y\|$`. The solution is a *regularized Newton step* of the form
+<div>
+$$\mathcal{D}f(y)+\mathcal{D}^2f(y)(x-y)+\frac12 K\|x-y\|(x-y)$$
+</div>
+
+Let `$\delta=\|x-y\|$`. The solution for `$x$` is a *regularized Newton step* of the form
 
 <div>
-$$x=y-\left[\mathcal{D}^2f(y)+\frac13 K\delta I\right]^{-1}\mathcal{D}f(y),$$
+$$x=y-\left[\mathcal{D}^2f(y)+\frac12 K\delta I\right]^{-1}\mathcal{D}f(y),$$
 </div> 
 
 where `$\delta$` solves the single-variable *secular equation*
 
 <div>
-$$\delta^2=\mathcal{D}f(y)'\left[\mathcal{D}^2f(y)+\frac13 K\delta I\right]^{-2}\mathcal{D}f(y).$$
+$$\delta^2=\mathcal{D}f(y)'\left[\mathcal{D}^2f(y)+\frac12 K\delta I\right]^{-2}\mathcal{D}f(y).$$
 </div> 
 
 The secular equation can be solved efficiently, starting from the eigen-decomposition of `$\mathcal{D}^2f(y)$`.
 Suppose `$L\Lambda L'$` is one such eigen-decomposition, and define `$g:=L'\mathcal{D}f(y)$`. Then we must solve
 
 <div>
-$$\delta^2=\sum_{i=1}^n \frac{g_i^2}{(\lambda_i+\frac13K\delta)^2}.$$
+$$\delta^2=\sum_{i=1}^n \frac{g_i^2}{(\lambda_i+\frac12 K\delta)^2}.$$
 </div>
 
 We again use logistic regression as an example. For the negative log-likelihood
