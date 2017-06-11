@@ -372,8 +372,10 @@ This leads to minimization of the majorization scheme
 $$g(x,y)=f(y)+(x-y)'\mathcal{D}f(y)+\frac12 (x-y)'\mathcal{D}^2f(y)(x-y)+\frac16 K\|x-y\|^3,$$
 </div>
 
+and to solving the system
+
 <div>
-$$\mathcal{D}f(y)+\mathcal{D}^2f(y)(x-y)+\frac12 K\|x-y\|(x-y)$$
+$$\mathcal{D}_1g(x,y)=\mathcal{D}f(y)+\mathcal{D}^2f(y)(x-y)+\frac12 K\|x-y\|(x-y)=0.$$
 </div>
 
 Let `$\delta=\|x-y\|$`. The solution for `$x$` is a *regularized Newton step* of the form
