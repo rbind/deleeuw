@@ -4,7 +4,7 @@ draft = false
 tags = []
 title = "More C and less R"
 +++
-The two major R packages we are wroking on are the *smacof* package for multidimensional scaling, and the 
+The two major R packages we are working on are the *smacof* package for multidimensional scaling, and the 
 *gifi* package for multivariate analysis with optimal scaling. A major ongoing project is to replace
 the R code in the packages by C code, wherever that makes sense. The two major reasons are:
 
