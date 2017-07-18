@@ -10,7 +10,7 @@ url_project = "http://gifi.stat.ucla.edu/tweaking"
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/jacobi/tweaking.html"
+url = "http://gifi.stat.ucla.edu/tweaking/tweaking.html"
 
 +++
 
