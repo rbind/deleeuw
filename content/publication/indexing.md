@@ -1,5 +1,5 @@
 +++
-abstract = "We give R, C, and R->C code to access lineary stored multidimensional arrays and compactly stored multidimensional super-symmetric arrays."
+abstract = "We give R, C, and R->C code to access linearly stored multidimensional arrays and compactly stored multidimensional super-symmetric arrays."
 authors = ["Jan de Leeuw"]
 date = "2017-08-16"
 publication = "AUX"
