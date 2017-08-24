@@ -73,6 +73,13 @@ pubs_count = 8
   site = "ResearchGate"
 
 [[params.social]]
+  icon = "academia"
+  icon_pack = "ai"
+  link = "https://ucla.academia.edu/JanDeLeeuw"
+  text = "Jan"
+  site = "Academia"
+
+[[params.social]]
   icon = "linkedin"
   icon_pack = "fa"
   link = "https://www.linkedin.com/in/jan-de-leeuw-a18a7a140/"
