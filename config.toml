@@ -80,6 +80,13 @@ pubs_count = 8
   site = "Academia"
 
 [[params.social]]
+  icon = "academia"
+  icon_pack = "ai"
+  link = "https://www.knaw.nl/en/members/correspondents/4449"
+  text = "Jan"
+  site = "KNAW"
+
+[[params.social]]
   icon = "linkedin"
   icon_pack = "fa"
   link = "https://www.linkedin.com/in/jan-de-leeuw-a18a7a140/"
