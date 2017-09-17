@@ -101,7 +101,7 @@ pubs_count = 8
   site = "Wikipedia"
 
 [[params.social]]
-  icon = "google"
+  icon = "google-scholar"
   icon_pack = "fa"
   link = "https://scholar.google.com/citations?user=Ccp--gIAAAAJ&hl=en"
   text = "Jan"
