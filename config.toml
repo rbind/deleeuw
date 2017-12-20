@@ -25,7 +25,7 @@ bio_twitter = "deleeuw_jan"
 posts_title = "Posts"
 
 # Number of posts to show on main page.
-posts_count = 2
+posts_count = 3
 
 # Title of publications section on main page.
 pubs_title = "Publications"
