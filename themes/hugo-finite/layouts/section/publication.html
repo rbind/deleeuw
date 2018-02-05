@@ -22,6 +22,9 @@
     </div>
     {{ end }}
   </div>
+</div>
+<hr>
+<div class="row">
   <div class="column small-12 medium-6">
     <h2>Multidimensional Scaling</h2>
     {{ range (where .Data.Pages "Params.publication" "==" "MDS").GroupByDate "2006" "desc" }}
