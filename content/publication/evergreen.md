@@ -1,5 +1,5 @@
 +++
-abstract = "In 1899 for a single summer there was a roadhouse and amusement park in Piedmont, run by Harry Bush, a doubtful figure from the North End, and Liverpool Liz, a more well-known saloon keeper and madam. We
+abstract = "In 1899 for a single summer there was a roadhouse and amusement park in Piedmont, run by Harry Bush, a doubtful figure from the North End, and Liverpool Liz, a well-known saloon keeper and madam. We
 review the history of Evergreen Park and the colorful people that were involved in its operation and demise."
 authors = ["Jan de Leeuw"]
 date = "2018-01-16"
