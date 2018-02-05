@@ -1,5 +1,5 @@
 +++
-date = "2017-19-12"
+date = "2017-12-19T23:30:00"
 draft = false
 tags = []
 title = "Local History Galore"
