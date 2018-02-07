@@ -3,7 +3,7 @@ abstract = "A brief overview of the donation land claims, military bounty claims
 authors = ["Jan de Leeuw"]
 date = "2018-01-01"
 publication = "HIS"
-title = "Piedmont Homesteads"
+title = "Piedmont Homesteads 1850-1880"
 url_pdf = "https://drive.google.com/open?id=1EkMdw5eTFAPQ-wqjOFaC0WgMnE5oh6Ho"
 url_project = "https://drive.google.com/open?id=1T_ZLiOZcliPVl3CeY-nO2Vchvi2BO7_4"
 
