@@ -3,7 +3,7 @@ abstract = "In the 1860s Evander Howe came from Vermont to Portland, and bought 
 authors = ["Jan de Leeuw"]
 date = "2018-02-08"
 publication = "HIS"
-title = "Evander Howe 1860-1883"
+title = "Evander Howe 1870-1882"
 url_pdf = "https://drive.google.com/file/d/0B94Urj3OjM7BemVqRGN4UFUxRWc"
 url_project = "https://drive.google.com/drive/folders/0B94Urj3OjM7BemZtSnM3T29uOFU"
 
