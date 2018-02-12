@@ -1,5 +1,5 @@
 +++
-abstract = "Around 1860 John Fenstermacher bought a sliver of modern Piedmont from the US, and also around 1860 he sold it again. Thus he is entitled to an infinitesimal part of Piedmont's history."
+abstract = "Around 1860 John Fenstermacher bought a sliver of modern Piedmont from the US, and also around 1860 he sold it again. Thus he is entitled to an infinitesimal part of Piedmont's history. I wrote down what could find out about him."
 authors = ["Jan de Leeuw"]
 date = "2018-02-12"
 publication = "HIS"
