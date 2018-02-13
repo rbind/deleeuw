@@ -4,12 +4,12 @@ authors = ["Jan de Leeuw and C. Roger Nance"]
 date = "2018-02-12"
 publication = "DAT"
 title = "Homogeneity Analysis of Durant Bend Sherds"
-url_pdf = ""
-url_project = ""
+url_pdf = "http://gifi.stat.ucla.edu/sherds/sherds.pdf"
+url_project = "http://gifi.stat.ucla.edu/sherds"
 
 
 [[url_custom]]
 name = "HTML"
-url = ""
+url = "http://gifi.stat.ucla.edu/sherds/sherds.html"
 +++
 
