@@ -1,10 +1,10 @@
 +++
-abstract = "The Loveleigh Subdivision, a part of the modern Piedmont Neighborhood, but not of the original Piedmont Nieghborhood, was platted by Elians Brong of Brong-Steele in 1908."
+abstract = "The Loveleigh Subdivision, a part of the modern Piedmont Neighborhood, although not of the original Piedmont Neighborhood, was platted by Elians Brong of Brong-Steele in 1908."
 authors = ["Jan de Leeuw"]
 date = "2018-02-26"
 publication = "HIS"
 title = "The Loveleigh Subdivision"
-url_pdf = "https://drive.google.com/open?id=124KTO88KNKYI06S_Kg7mD37j-HojvKZM
+url_pdf = "https://drive.google.com/open?id=124KTO88KNKYI06S_Kg7mD37j-HojvKZM"
 url_project = "https://drive.google.com/open?id=0B94Urj3OjM7BQXduTnpQbVpjVzQ"
 
 
