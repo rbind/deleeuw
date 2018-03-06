@@ -3,7 +3,7 @@ abstract = "For just a couple of years there was an airport just outside the Pie
 authors = ["Jan de Leeuw"]
 date = "2017-10-20"
 publication = "HIS"
-title = "Rankin Airport 1930-1933"
+title = "Structures: Rankin Airport"
 url_pdf = "https://drive.google.com/open?id=18IhFuHFxIyZp1qiESwfkOsqlK6fmfQnH"
 url_project = "https://drive.google.com/open?id=1ru79jDN0mNDTKuLLJ2hyAXTvsKrqrHdl"
 
