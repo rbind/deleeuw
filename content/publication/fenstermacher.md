@@ -1,7 +1,7 @@
 +++
 abstract = "Around 1860 John Fenstermacher bought a sliver of modern Piedmont from the US, and also around 1860 he sold it again. Thus he is entitled to an infinitesimal part of Piedmont's history. I wrote down everything I could find out about him."
 authors = ["Jan de Leeuw"]
-date = "2018-03-06"
+date = "2018-02-12"
 publication = "HIS"
 title = "Homesteads: John Fenstermacher"
 url_pdf = "https://drive.google.com/open?id=10M9wj9ehPJ7G1Ga6Z3WUreQJwETT1NW3"
