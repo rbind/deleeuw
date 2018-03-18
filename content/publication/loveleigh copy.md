@@ -1,5 +1,5 @@
 +++
-abstract = "The Saratoga Subdivision was platted by H.C. Wortman in 1889, almost simultaneously with the Piedmont subdivision."
+abstract = "The Saratoga subdivision was platted by H.C. Wortman in 1889, almost simultaneously with the Piedmont subdivision."
 authors = ["Jan de Leeuw"]
 date = "2018-03-18"
 publication = "HIS"
