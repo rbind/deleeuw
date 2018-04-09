@@ -5,7 +5,6 @@ date = "2018-02-12"
 publication = "HIS"
 title = "Homesteads: John Fenstermacher"
 url_pdf = "https://drive.google.com/open?id=10M9wj9ehPJ7G1Ga6Z3WUreQJwETT1NW3"
-url_project = "https://drive.google.com/open?id=10RX-AbsnUouP8-A3YO9qZd6iMBw7_0uG"
 
 
 [[url_custom]]

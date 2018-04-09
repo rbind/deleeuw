@@ -5,7 +5,6 @@ date = "2018-04-03"
 publication = "HIS"
 title = "Subdivisions: Kirkmar"
 url_pdf = "https://drive.google.com/open?id=1K0Vy_pLA6v6lHOG20JHfW3pFNbB_y_As"
-url_project = "https://drive.google.com/open?id=15ZBX369n9l0MWdtkFUuv0YO8KGeITl-C"
 
 
 [[url_custom]]

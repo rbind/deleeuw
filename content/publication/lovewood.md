@@ -5,7 +5,6 @@ date = "2018-03-08"
 publication = "HIS"
 title = "Subdivisions: Lovewood"
 url_pdf = "https://drive.google.com/file/d/1MFAF_zvS91iEljKEif22ZFuFzNk1NBpg/view"
-url_project = "https://drive.google.com/drive/folders/1J1whbGmqk01CdtImHnaVSM7RSFR41yNO"
 
 
 [[url_custom]]

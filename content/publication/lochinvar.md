@@ -5,7 +5,6 @@ date = "2018-03-29"
 publication = "HIS"
 title = "Subdivisions: Lochinvar"
 url_pdf = "https://drive.google.com/open?id=1WYFm9L-zLTn4d3Z-P0jHR7H764vB_IzJ"
-url_project = "https://drive.google.com/open?id=1yTM1H5aO17VkJt_aCQxLaMIDtHxLzBuH"
 
 
 [[url_custom]]

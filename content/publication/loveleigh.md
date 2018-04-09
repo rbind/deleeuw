@@ -5,7 +5,6 @@ date = "2018-03-06"
 publication = "HIS"
 title = "Subdivisions: Loveleigh"
 url_pdf = "https://drive.google.com/open?id=124KTO88KNKYI06S_Kg7mD37j-HojvKZM"
-url_project = "https://drive.google.com/open?id=0B94Urj3OjM7BQXduTnpQbVpjVzQ"
 
 
 [[url_custom]]

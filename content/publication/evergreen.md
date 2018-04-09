@@ -5,7 +5,6 @@ date = "2018-01-16"
 publication = "HIS"
 title = "Structures: Evergreen Park"
 url_pdf = "https://drive.google.com/open?id=1KonrLx412bzy-mjLurkvi9bQA_brrYo3"
-url_project = "https://drive.google.com/open?id=1pRp6By_nFHJwORcfSm9kFpBZokMBvgjO"
 
 
 [[url_custom]]

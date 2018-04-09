@@ -5,7 +5,6 @@ date = "2017-10-20"
 publication = "HIS"
 title = "Structures: Rankin Airport"
 url_pdf = "https://drive.google.com/open?id=18IhFuHFxIyZp1qiESwfkOsqlK6fmfQnH"
-url_project = "https://drive.google.com/open?id=1ru79jDN0mNDTKuLLJ2hyAXTvsKrqrHdl"
 
 
 [[url_custom]]

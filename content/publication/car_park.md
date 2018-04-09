@@ -5,7 +5,6 @@ date = "2017-09-28"
 publication = "HIS"
 title = "Structures: The Municipal Automobile Camp"
 url_pdf = "https://drive.google.com/open?id=0B94Urj3OjM7BeTBxSGwwVW5kZ0E"
-url_project = "https://drive.google.com/open?id=0B94Urj3OjM7BeTI3UGhtMXNMMnc"
 
 
 [[url_custom]]
