@@ -4,13 +4,13 @@ authors = ["Jan de Leeuw"]
 date = "2018-03-18"
 publication = "HIS"
 title = "Subdivisions: Saratoga"
-url_pdf = "https://drive.google.com/open?id=124KTO88KNKYI06S_Kg7mD37j-HojvKZM"
-url_project = "https://drive.google.com/open?id=0B94Urj3OjM7BQXduTnpQbVpjVzQ"
+url_pdf = "https://drive.google.com/open?id=1OHx5hx1NCU-MoAAo68ppMKhZgD1GoYKn"
+url_project = "https://drive.google.com/open?id=1NOlhNVpc2zLNa426roDzL3yXVJL3pkOR"
 
 
 [[url_custom]]
 name = "HTML"
-url = "https://docs.google.com/document/d/1tU6O0PQGrA27LxREGZQmxHMJTCCadK9p5I4WtN0pS2M"
+url = "https://drive.google.com/open?id=1MLr6GdfVfmNIgi1001hFZ9IpTlXp1bo0CoeyrEIzY6o"
 
 +++
 
