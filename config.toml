@@ -141,7 +141,7 @@ pubs_count = 8
 
 [[menu.main]]
   name = "Bibliography"
-  url = "http://gifi.stat.ucla.edu/janspubs/0_bib_material/index.html"
+  url = "https://drive.google.com/open?id=1c6GHCvvls8y6cn_-kQzfPgECTXgaHT3ul"
   weight = 3
 
 [[menu.main]]
