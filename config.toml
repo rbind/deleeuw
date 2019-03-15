@@ -141,7 +141,7 @@ pubs_count = 8
 
 [[menu.main]]
   name = "Bibliography"
-  url = "https://drive.google.com/open?id=1fvz9HWzS9t0b9v0qTGlFAgM00w0HL3CoQxaLdH0o5V4"
+  url = "http://63.224.248.98/janspubs"
   weight = 3
 
 [[menu.main]]
