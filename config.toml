@@ -141,7 +141,7 @@ pubs_count = 8
 
 [[menu.main]]
   name = "Bibliography"
-  url = "http://deleeuwpdx.net/janspubs"
+  url = "http://deleeuwpdx.net/janspubs/0_bib_material"
   weight = 3
 
 [[menu.main]]
