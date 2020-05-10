@@ -4,13 +4,13 @@ authors = ["Jan de Leeuw", "Patrick Groenen", "Raoul Pietersz"]
 date = "2016-11-10"
 publication = "MDS"
 title = "An Alternating Least Squares Approach to Squared Distance Scaling"
-url_pdf = "http://gifi.stat.ucla.edu/lost/lost.pdf"
-url_project = "http://gifi.stat.ucla.edu/lost"
+url_pdf = "http://deleeuwpdx.net/pubfolders/lost/lost.pdf"
+url_project = "http://deleeuwpdx.net/pubfolders/lost"
 
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/lost/lost.html"
+url = "http://deleeuwpdx.net/pubfolders/lost/lost.html"
 
 +++
 

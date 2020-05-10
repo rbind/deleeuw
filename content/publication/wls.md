@@ -4,13 +4,13 @@ authors = ["Jan de Leeuw"]
 date = "2017-05-25"
 publication = "OPT"
 title = "Some Majorization Theory for Weighted Least Squares"
-url_pdf = "http://gifi.stat.ucla.edu/wls/wls.pdf"
-url_project = "http://gifi.stat.ucla.edu/wls"
+url_pdf = "http://deleeuwpdx.net/pubfolders/wls/wls.pdf"
+url_project = "http://deleeuwpdx.net/pubfolders/wls"
 
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/wls/wls.html"
+url = "http://deleeuwpdx.net/pubfolders/wls/wls.html"
 
 +++
 

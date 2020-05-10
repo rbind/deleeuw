@@ -4,13 +4,13 @@ authors = ["Jan de Leeuw"]
 date = "2016-06-08"
 publication = "MDS"
 title = "Gower Rank"
-url_pdf = "http://gifi.stat.ucla.edu/gower/gower.pdf"
-url_project = "http://gifi.stat.ucla.edu/gower"
+url_pdf = "http://deleeuwpdx.net/pubfolders/gower/gower.pdf"
+url_project = "http://deleeuwpdx.net/pubfolders/gower"
 
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/gower/gower.html"
+url = "http://deleeuwpdx.net/pubfolders/gower/gower.html"
 
 +++
 

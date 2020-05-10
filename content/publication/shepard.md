@@ -4,13 +4,13 @@ authors = ["Jan de Leeuw"]
 date = "2017-02-01"
 publication = "MDS"
 title = "Shepard Non-metric Multidimensional Scaling"
-url_pdf = "http://gifi.stat.ucla.edu/shepard/shepard.pdf"
-url_project = "http://gifi.stat.ucla.edu/shepard"
+url_pdf = "http://deleeuwpdx.net/pubfolders/shepard/shepard.pdf"
+url_project = "http://deleeuwpdx.net/pubfolders/shepard"
 
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/shepard/shepard.html"
+url = "http://deleeuwpdx.net/pubfolders/shepard/shepard.html"
 
 +++
 

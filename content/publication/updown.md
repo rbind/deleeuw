@@ -4,13 +4,13 @@ authors = ["Jan de Leeuw"]
 date = "2017-01-16"
 publication = "MDS"
 title = "Multidimensional Scaling with Distance Bounds"
-url_pdf = "http://gifi.stat.ucla.edu/updown/updown.pdf"
-url_project = "http://gifi.stat.ucla.edu/updown"
+url_pdf = "http://deleeuwpdx.net/pubfolders/updown/updown.pdf"
+url_project = "http://deleeuwpdx.net/pubfolders/updown"
 
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/updown/updown.html"
+url = "http://deleeuwpdx.net/pubfolders/updown/updown.html"
 
 +++
 

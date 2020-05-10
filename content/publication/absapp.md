@@ -4,13 +4,13 @@ authors = ["Jan de Leeuw"]
 date = "2018-05-01"
 publication = "OPT"
 title = "MM Algorithms for Smoothed Absolute Values"
-url_pdf = "http://gifi.stat.ucla.edu/absapp/absapp.pdf"
-url_project = "http://gifi.stat.ucla.edu/absapp"
+url_pdf = "http://deleeuwpdx.net/pubfolders/absapp/absapp.pdf"
+url_project = "http://deleeuwpdx.net/pubfolders/absapp"
 
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/absapp/absapp.html"
+url = "http://deleeuwpdx.net/pubfolders/absapp/absapp.html"
 
 +++
 

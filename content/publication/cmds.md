@@ -4,13 +4,13 @@ authors = ["Jan de Leeuw"]
 date = "2018-04-09"
 publication = "MDS"
 title = "An Alternative Majorization for Multidimensional Scaling"
-url_pdf = "http://gifi.stat.ucla.edu/cmds/cmds.pdf"
-url_project = "http://gifi.stat.ucla.edu/cmds"
+url_pdf = "http://deleeuwpdx.net/pubfolders/cmds/cmds.pdf"
+url_project = "http://deleeuwpdx.net/pubfolders/cmds"
 
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/cmds/cmds.html"
+url = "http://deleeuwpdx.net/pubfolders/cmds/cmds.html"
 
 +++
 

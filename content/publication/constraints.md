@@ -4,13 +4,13 @@ authors = ["Jan de Leeuw"]
 date = "2018-12-23"
 publication = "OPT"
 title = "Convergence Rate of Majorization Algorithms with Constraints"
-url_pdf = "http://gifi.stat.ucla.edu/constraints/constraints.pdf"
-url_project = "http://gifi.stat.ucla.edu/constraints"
+url_pdf = "http://deleeuwpdx.net/pubfolders/constraints/constraints.pdf"
+url_project = "http://deleeuwpdx.net/pubfolders/constraints"
 
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/constraints/constraints.html"
+url = "http://deleeuwpdx.net/pubfolders/constraints/constraints.html"
 
 +++
 

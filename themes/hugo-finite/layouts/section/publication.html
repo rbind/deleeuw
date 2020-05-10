@@ -5,26 +5,9 @@
   </div>
 </div>
 <div class="row">
-    <div class="column small-12 medium-6">
-    <h2>Local History</h2>
-    {{ range (where .Data.Pages "Params.publication" "==" "HIS").GroupByDate "2006" "desc" }}
-    <div class="row">
-      <div class="column small-2 medium-2">
-        <h3>{{ .Key }}</h3>
-      </div>
-      <div class="column small-10 medium-10">
-  <ul class="compact fa-ul">
-    {{ range .Pages.ByDate.Reverse }}
-      <li>{{ partial "pub-summary" . }}</li>
-      {{ end }}
-  </ul>
-      </div>
-    </div>
-    {{ end }}
-  </div>
-    <div class="column small-12 medium-6">
-    <h2>Data Analysis</h2>
-    {{ range (where .Data.Pages "Params.publication" "==" "DAT").GroupByDate "2006" "desc" }}
+  <div class="column small-12 medium-6">
+    <h2>Books</h2>
+    {{ range (where .Data.Pages "Params.publication" "==" "BOK").GroupByDate "2006" "desc" }}
     <div class="row">
       <div class="column small-2 medium-2">
         <h3>{{ .Key }}</h3>
@@ -38,9 +21,8 @@
       </div>
     </div>
     {{ end }}
+    </div>
   </div>
-</div>
-<hr>
 <div class="row">
   <div class="column small-12 medium-6">
     <h2>Multidimensional Scaling</h2>

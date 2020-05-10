@@ -4,13 +4,13 @@ authors = ["Jan de Leeuw"]
 date = "2017-08-06"
 publication = "MDS"
 title = "Higher Partials of fStress. Who Needs Them ?"
-url_pdf = "http://gifi.stat.ucla.edu/fStress/fStress.pdf"
-url_project = "http://gifi.stat.ucla.edu/fStress"
+url_pdf = "http://deleeuwpdx.net/pubfolders/fStress/fStress.pdf"
+url_project = "http://deleeuwpdx.net/pubfolders/fStress"
 
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/fStress/fStress.html"
+url = "http://deleeuwpdx.net/pubfolders/fStress/fStress.html"
 
 +++
 

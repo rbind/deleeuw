@@ -4,13 +4,13 @@ authors = ["Jan de Leeuw"]
 date = "2016-11-01"
 publication = "OPT"
 title = "Block Relaxation as Majorization"
-url_pdf = "http://gifi.stat.ucla.edu/block/block.pdf"
-url_project = "http://gifi.stat.ucla.edu/block"
+url_pdf = "http://deleeuwpdx.net/pubfolders/block/block.pdf"
+url_project = "http://deleeuwpdx.net/pubfolders/block"
 
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/block/block.html"
+url = "http://deleeuwpdx.net/pubfolders/block/block.html"
 
 +++
 

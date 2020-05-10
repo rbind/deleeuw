@@ -4,13 +4,13 @@ authors = ["Jan de Leeuw"]
 date = "2017-07-11"
 publication = "AUX"
 title = "Jacobi Eigen in R/C with Lower Triangular Column-wise Compact Storage"
-url_pdf = "http://gifi.stat.ucla.edu/jacobi/jacobi.pdf"
-url_project = "http://gifi.stat.ucla.edu/jacobi"
+url_pdf = "http://deleeuwpdx.net/pubfolders/jacobi/jacobi.pdf"
+url_project = "http://deleeuwpdx.net/pubfolders/jacobi"
 
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/jacobi/jacobi.html"
+url = "http://deleeuwpdx.net/pubfolders/jacobi/jacobi.html"
 
 +++
 

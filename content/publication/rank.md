@@ -4,13 +4,13 @@ authors = ["Jan de Leeuw"]
 date = "2016-11-23"
 publication = "AUX"
 title = "Derivatives of Low Rank PSD Approximation"
-url_pdf = "http://gifi.stat.ucla.edu/rank/rank.pdf"
-url_project = "http://gifi.stat.ucla.edu/rank"
+url_pdf = "http://deleeuwpdx.net/pubfolders/rank/rank.pdf"
+url_project = "http://deleeuwpdx.net/pubfolders/rank"
 
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/rank/rank.html"
+url = "http://deleeuwpdx.net/pubfolders/rank/rank.html"
 
 +++
 

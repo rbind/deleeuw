@@ -1,6 +1,6 @@
-baseurl = "/"
+baseurl = "http://deleeuwpdx.net/"
 title = "Jan's Page"
-author = "Marcus Brinkmann"
+author = "Jan de Leeuw"
 copyright = "Copyright (c) 2016 Marcus Brinkmann"
 canonifyurls = true
 paginate = 3
@@ -22,16 +22,16 @@ bio_full = "Jan de Leeuw: retired, not finished"
 bio_twitter = "deleeuw_jan"
 
 # Title of posts section on main page.
-posts_title = "Posts"
+# posts_title = "Posts"
 
 # Number of posts to show on main page.
-posts_count = 3
+# posts_count = 5
 
 # Title of publications section on main page.
-pubs_title = "Publications"
+# pubs_title = "Papers"
 
 # Number of publications to show on main page.
-pubs_count = 8
+# pubs_count = 8
 
 [[params.education]]
   course = "Ph.D. Social Sciences"
@@ -41,28 +41,28 @@ pubs_count = 8
 [[params.social]]
   icon = "envelope"
   icon_pack = "fa"
-  link = "mailto:deleeuw@stat.ucla.edu"
-  text = "deleeuw@stat.ucla.edu"
-    
-[[params.social]]
-  icon = "twitter"
-  icon_pack = "fa"
-  link = "https://twitter.com/deleeuw_jan"
-  text = "@deleeuw_jan"
-  site = "Twitter"
+  link = "mailto:jan@deleeuwpdx.net"
+  text = "jan@deleeuwpdx.net"    
 
 [[params.social]]
   icon = "facebook"
   icon_pack = "fa"
-  link = "https://www.facebook.com/jan.deleeuw1"
-  text = "jan.deleeuw1"
-  site = "Facebook"
+  link = "https://www.facebook.com/jan.deleeuw.31521"
+  text = "Jan"
+  site = "Facebook"    
+
+[[params.social]]
+  icon = "twitter"
+  icon_pack = "fa"
+  link = "https://twitter.com/deleeuwpdx"
+  text = "Jan"
+  site = "Twitter"    
 
 [[params.social]]
   icon = "github"
   icon_pack = "fa"
   link = "https://github.com/deleeuw"
-  text = "deleeuw"
+  text = "Jan"
   site = "GitHub"
 
 [[params.social]]
@@ -87,13 +87,6 @@ pubs_count = 8
   site = "KNAW"
 
 [[params.social]]
-  icon = "linkedin"
-  icon_pack = "fa"
-  link = "https://www.linkedin.com/in/jan-de-leeuw-a18a7a140/"
-  text = "Jan"
-  site = "LinkedIn"
-
-[[params.social]]
   icon = "wikipedia-w"
   icon_pack = "fa"
   link = "https://en.wikipedia.org/wiki/Jan_de_Leeuw"
@@ -113,6 +106,13 @@ pubs_count = 8
   link = "https://www.genealogy.math.ndsu.nodak.edu/id.php?id=36682&fChrono=1"
   text = "Jan"
   site = "Mathematics Genealogy"
+
+[[params.social]]
+  icon = "archive"
+  icon_pack = "fa"
+  link = "https://archive.org/details/@deleeuw?sort=-date"
+  text = "Jan"
+  site = "Internet Archive"
 
 [[params.social]]
   icon = "file-audio-o"
@@ -141,11 +141,16 @@ pubs_count = 8
 
 [[menu.main]]
   name = "Bibliography"
-  url = "http://63.224.248.98/janspubs"
+  url = "http://deleeuwpdx.net/janspubs/0_bib_material"
   weight = 3
+
+[[menu.main]]
+  name = "Piedmont History"
+  url = "https://drive.google.com/open?id=1efOTXOGHw3DVqBCZ_prTYZ1GU9jfaRfXDsiy3-QLyS8"
+  weight = 4
 
 [[menu.main]]
   name = "Contact"
   url = "/#contact"
-  weight = 4
+  weight = 5
 

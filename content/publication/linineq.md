@@ -4,13 +4,13 @@ authors = ["Jan de Leeuw"]
 date = "2016-12-20"
 publication = "OPT"
 title = "Least Squares Solutions of Linear Inequality Systems"
-url_pdf = "http://gifi.stat.ucla.edu/linineq/linineq.pdf"
-url_project = "http://gifi.stat.ucla.edu/linineq"
+url_pdf = "http://deleeuwpdx.net/pubfolders/linineq/linineq.pdf"
+url_project = "http://deleeuwpdx.net/pubfolders/linineq"
 
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/linineq/linineq.html"
+url = "http://deleeuwpdx.net/pubfolders/linineq/linineq.html"
 
 +++
 

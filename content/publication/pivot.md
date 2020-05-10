@@ -4,13 +4,13 @@ authors = ["Jan de Leeuw"]
 date = "2016-03-23"
 publication = "AUX"
 title = "Exceedingly Simple Principal Pivot Transforms"
-url_pdf = "http://gifi.stat.ucla.edu/pivot/pivot.pdf"
-url_project = "http://gifi.stat.ucla.edu/pivot"
+url_pdf = "http://deleeuwpdx.net/pubfolders/pivot/pivot.pdf"
+url_project = "http://deleeuwpdx.net/pubfolders/pivot"
 
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/pivot/pivot.html"
+url = "http://deleeuwpdx.net/pubfolders/pivot/pivot.html"
 
 +++
 

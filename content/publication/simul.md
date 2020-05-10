@@ -4,13 +4,13 @@ authors = ["Jan de Leeuw"]
 date = "2017-05-21"
 publication = "AUX"
 title = "Simultaneous Diagonalization of Positive Semi-definite Matrices"
-url_pdf = "http://gifi.stat.ucla.edu/simul/simul.pdf"
-url_project = "http://gifi.stat.ucla.edu/simul"
+url_pdf = "http://deleeuwpdx.net/pubfolders/simul/simul.pdf"
+url_project = "http://deleeuwpdx.net/pubfolders/simul"
 
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/simul/simul.html"
+url = "http://deleeuwpdx.net/pubfolders/simul/simul.html"
 
 +++
 

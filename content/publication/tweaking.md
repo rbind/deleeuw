@@ -4,13 +4,13 @@ authors = ["Jan de Leeuw"]
 date = "2017-07-17"
 publication = "MDS"
 title = "Tweaking the SMACOF Engine"
-url_pdf = "http://gifi.stat.ucla.edu/tweaking/tweaking.pdf"
-url_project = "http://gifi.stat.ucla.edu/tweaking"
+url_pdf = "http://deleeuwpdx.net/pubfolders/tweaking/tweaking.pdf"
+url_project = "http://deleeuwpdx.net/pubfolders/tweaking"
 
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/tweaking/tweaking.html"
+url = "http://deleeuwpdx.net/pubfolders/tweaking/tweaking.html"
 
 +++
 

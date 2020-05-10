@@ -4,13 +4,13 @@ authors = ["Jan de Leeuw"]
 date = "2017-05-05"
 publication = "MVA"
 title = "Factor Analysis as Matrix Decomposition and Approximation: Theory"
-url_pdf = "http://gifi.stat.ucla.edu/factor/factor.pdf"
-url_project = "http://gifi.stat.ucla.edu/factor"
+url_pdf = "http://deleeuwpdx.net/pubfolders/factor/factor.pdf"
+url_project = "http://deleeuwpdx.net/pubfolders/factor"
 
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/factor/factor.html"
+url = "http://deleeuwpdx.net/pubfolders/factor/factor.html"
 
 +++
 

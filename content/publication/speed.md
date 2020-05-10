@@ -4,13 +4,13 @@ authors = ["Jan de Leeuw"]
 date = "2016-12-02"
 publication = "MDS"
 title = "Convergence Rate of ELEGANT Algorithms"
-url_pdf = "http://gifi.stat.ucla.edu/speed/speed.pdf"
-url_project = "http://gifi.stat.ucla.edu/speed"
+url_pdf = "http://deleeuwpdx.net/pubfolders/speed/speed.pdf"
+url_project = "http://deleeuwpdx.net/pubfolders/speed"
 
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/speed/speed.html"
+url = "http://deleeuwpdx.net/pubfolders/speed/speed.html"
 
 +++
 

@@ -4,13 +4,13 @@ authors = ["Jan de Leeuw"]
 date = "2016-03-14"
 publication = "MDS"
 title = "Minimizing qStress for small q"
-url_pdf = "http://gifi.stat.ucla.edu/qstress/qstress.pdf"
-url_project = "http://gifi.stat.ucla.edu/qstress"
+url_pdf = "http://deleeuwpdx.net/pubfolders/qstress/qstress.pdf"
+url_project = "http://deleeuwpdx.net/pubfolders/qstress"
 
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/qstress/qstress.html"
+url = "http://deleeuwpdx.net/pubfolders/qstress/qstress.html"
 
 +++
 

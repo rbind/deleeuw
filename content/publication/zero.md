@@ -4,13 +4,13 @@ authors = ["Jan de Leeuw"]
 date = "2018-05-24"
 publication = "MDS"
 title = "Differentiability of Stress at Local Minima"
-url_pdf = "http://gifi.stat.ucla.edu/zero/zero.pdf"
-url_project = "http://gifi.stat.ucla.edu/zero"
+url_pdf = "http://deleeuwpdx.net/pubfolders/zero/zero.pdf"
+url_project = "http://deleeuwpdx.net/pubfolders/zero"
 
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/zero/zero.html"
+url = "http://deleeuwpdx.net/pubfolders/zero/zero.html"
 
 +++
 

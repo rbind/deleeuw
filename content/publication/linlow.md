@@ -5,11 +5,11 @@ date = "2017-06-02"
 publication = "OPT"
 title = "Weighted Low-rank Approximation using Majorization"
 url_project = "http://gifi.stat.ucla.edu/linlow"
-url_pdf = "http://gifi.stat.ucla.edu/linlow/linlow.pdf"
+url_pdf = "http://deleeuwpdx.net/pubfolders/linlow/linlow.pdf"
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/linlow/linlow.html"
+url = "http://deleeuwpdx.net/pubfolders/linlow/linlow.html"
 
 +++
 

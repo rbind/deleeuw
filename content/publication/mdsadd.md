@@ -4,13 +4,13 @@ authors = ["Jan de Leeuw"]
 date = "2016-12-28"
 publication = "MDS"
 title = "Multidimensional Scaling with Anarchic Distances"
-url_pdf = "http://gifi.stat.ucla.edu/mdsadd/mdsadd.pdf"
-url_project = "http://gifi.stat.ucla.edu/mdsadd"
+url_pdf = "http://deleeuwpdx.net/pubfolders/mdsadd/mdsadd.pdf"
+url_project = "http://deleeuwpdx.net/pubfolders/mdsadd"
 
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/mdsadd/mdsadd.html"
+url = "http://deleeuwpdx.net/pubfolders/mdsadd/mdsadd.html"
 
 +++
 

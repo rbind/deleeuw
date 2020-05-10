@@ -4,13 +4,13 @@ authors = ["Jan de Leeuw"]
 date = "2017-03-30"
 publication = "AUX"
 title = "Exceedingly Simple Monotone Regression"
-url_pdf = "http://gifi.stat.ucla.edu/jbkPava/jbkPava.pdf"
-url_project = "http://gifi.stat.ucla.edu/jbkPava"
+url_pdf = "http://deleeuwpdx.net/pubfolders/jbkPava/jbkPava.pdf"
+url_project = "http://deleeuwpdx.net/pubfolders/jbkPava"
 
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/jbkPava/jbkPava.html"
+url = "http://deleeuwpdx.net/pubfolders/jbkPava/jbkPava.html"
 
 +++
 

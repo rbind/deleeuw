@@ -4,13 +4,13 @@ authors = ["Jan de Leeuw"]
 date = "2016-06-29"
 publication = "MDS"
 title = "Pictures of Stress"
-url_pdf = "http://gifi.stat.ucla.edu/twoPoints/twoPoints.pdf"
-url_project = "http://gifi.stat.ucla.edu/twoPoints"
+url_pdf = "http://deleeuwpdx.net/pubfolders/twoPoints/twoPoints.pdf"
+url_project = "http://deleeuwpdx.net/pubfolders/twoPoints"
 
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/twoPoints/twoPoints.html"
+url = "http://deleeuwpdx.net/pubfolders/twoPoints/twoPoints.html"
 
 +++
 

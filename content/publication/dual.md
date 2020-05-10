@@ -4,13 +4,13 @@ authors = ["Jan de Leeuw"]
 date = "2017-01-03"
 publication = "OPT"
 title = "Quadratic Programming with Quadratic Constraints"
-url_pdf = "http://gifi.stat.ucla.edu/dual/dual.pdf"
-url_project = "http://gifi.stat.ucla.edu/dual"
+url_pdf = "http://deleeuwpdx.net/pubfolders/dual/dual.pdf"
+url_project = "http://deleeuwpdx.net/pubfolders/dual"
 
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/dual/dual.html"
+url = "http://deleeuwpdx.net/pubfolders/dual/dual.html"
 
 +++
 

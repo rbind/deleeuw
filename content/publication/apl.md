@@ -4,13 +4,13 @@ authors = ["Jan de Leeuw", "Masanao Yajima"]
 date = "2016-03-07"
 publication = "AUX"
 title = "APL in R"
-url_pdf = "http://gifi.stat.ucla.edu/apl/apl.pdf"
-url_project = "http://gifi.stat.ucla.edu/apl"
+url_pdf = "http://deleeuwpdx.net/pubfolders/apl/apl.pdf"
+url_project = "http://deleeuwpdx.net/pubfolders/apl"
 
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/apl/apl.html"
+url = "http://deleeuwpdx.net/pubfolders/apl/apl.html"
 
 +++
 

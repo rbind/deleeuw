@@ -4,13 +4,13 @@ authors = ["Jan de Leeuw"]
 date = "2018-04-24"
 publication = "MDS"
 title = "The Positive Orthant Method"
-url_pdf = "http://gifi.stat.ucla.edu/pom/pom.pdf"
-url_project = "http://gifi.stat.ucla.edu/pom"
+url_pdf = "http://deleeuwpdx.net/pubfolders/pom/pom.pdf"
+url_project = "http://deleeuwpdx.net/pubfolders/pom"
 
 
 [[url_custom]]
 name = "HTML"
-url = "http://gifi.stat.ucla.edu/pom/pom.html"
+url = "http://deleeuwpdx.net/pubfolders/pom/pom.html"
 
 +++
 
