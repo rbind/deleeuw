@@ -6,7 +6,7 @@ publication = "BOK"
 title = "Least Squares Multidimensional Scaling"
 kind = "book"
 url_pdf = "http://deleeuwpdx.net/bookdown/stress/_book/_main.pdf"
-url_project = "http://deleeuwpdx.net/bookdown/stress"
+url_project = "http://deleeuwpdx.net/bookdown/stress/"
 
 
 [[url_custom]]

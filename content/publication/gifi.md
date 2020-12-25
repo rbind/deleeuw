@@ -6,7 +6,7 @@ publication = "BOK"
 title = "Gifi Analysis of Multivariate Data"
 kind = "book"
 url_pdf = "http://deleeuwpdx.net/bookdown/gifi/_book/_main.pdf"
-url_project = "http://deleeuwpdx.net/bookdown/gifi"
+url_project = "http://deleeuwpdx.net/bookdown/gifi/"
 
 
 [[url_custom]]
